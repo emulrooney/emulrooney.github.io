@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evan Mulrooney - Software Development Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+    <script src="./scripts/fontawesome.js" crossorigin="anonymous"></script>
+    <script src="./scripts/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+</head>
+
+<body>
+    <nav id="navigation">
+        <ul class="nav__list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="./content/resume.pdf">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <section class="about panel">
+            <div class="about__headshot">
+                <img src="./content/evanheadshot.jpg" aria-label="Headshot of Evan Mulrooney" />
+            </div>
+            <div class="about__text">
+                <h1>Evan Mulrooney</h1>
+                <h2>Software Development @ Mohawk College</h2>
+                <h3>Graduating December 2020</h3>
+                <p>
+                    Born and raised in Hamilton, Ontario. I'm a Software Development student at Mohawk College, with
+                    previous experience and education in live theatre. I consider myself a compulsive learner and I'm
+                    passionate about problem solving. I bring a keen eye for detail and a track record of thoroughness
+                    to every task, striving for elegant solutions to complicated problems.
+                </p>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="projects" class="projects">
+            <h4 class="panel__title">Projects</h4>
+            <div class="panel">
+                <ul class="projects__container">
+                    <li class="project">
+                        <div class="project__item">
+                            <h5 class="project__title">HamArtsMap</h5>
+                            <img src="./content/projects/project-HamArtsMap.png"
+                                aria-label="Splash screen for HamArtsMap app" />
+                            <div class="project__overlay">
+                                <div class="project__text">
+                                    <p>Find and review public art in Hamilton, ON.</p>
+                                    <a href="https://github.com/emulrooney/HamArtsmap" class="button--outline white">
+                                        <i class="fab fa-github"></i>
+                                        Github
+                                    </a>
+                                    <!-- <a href="#" class="button--outline white js__learn-more" data-learn-more="hamArtsMap">
+                                        <i class="fas fa-newspaper"></i>
+                                        Learn More
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="project__tags">
+                            <li class="tags__main">HTML/CSS</li>
+                            <li class="tags__main">Javascript</li>
+                            <li class="tags__main">PHP</li>
+                            <li class="tags__secondary">Bing Maps</li>
+                        </ul>
+                    </li>
+                    <li class="project">
+                        <div class="project__item">
+                            <h5 class="project__title">Grades Calculator</h5>
+                            <img src="./content/projects/project-GradesCalculator.png"
+                                aria-label="Screenshot of Grades Calculator" />
+                            <div class="project__overlay">
+                                <div class="project__text">
+                                    <p>Enter grades to calculate an average.</p>
+                                    <a href="#" class="button--outline white">
+                                        <i class="fas fa-gamepad"></i>
+                                        Try it out!
+                                    </a>
+                                    <!-- <a href="#" class="button--outline white js__learn-more" data-learn-more="gradesCalc">
+                                        <i class="fas fa-newspaper"></i>
+                                        Learn More
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="project__tags">
+                                <li class="tags__main">HTML/CSS</li>
+                                <li class="tags__main">React</li>
+                                <li class="tags__secondary">Javascript</li>
+                            </ul>
+                    </li>
+                    <li class="project">
+                        <div class="project__item">
+                            <h5 class="project__title">Mayd.AI @ HTN'19</h5>
+                            <img src="./content/projects/project-HackTheNorth.png" aria-label="Logo for Hack the North" />
+                            <div class="project__overlay">
+                                <div class="project__text">
+                                    <p>Fall detection with a repurposed <em><a
+                                                href="https://developer.microsoft.com/en-us/windows/kinect">Kinect</a>.</em>
+                                    </p>
+                                    <a href="https://devpost.com/software/mayd-ai" class="button--outline white">
+                                        <i class="fas fa-newspaper"></i>
+                                        Learn More on Devpost
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="project__tags">
+                            <li class="tags__main">C#</li>
+                            <li class="tags__main">Project Gesture SDK</li>
+                        </ul>
+                    </li>
+                    <li class="project">
+                        <div class="project__item">
+                            <h5 class="project__title">Orbital4</h5>
+                            <img src="./content/projects/project-Orbital4.png"
+                                aria-label="Screenshot of Orbital4 gameplay" />
+                            <div class="project__overlay">
+                                <div class="project__text">
+                                    <p class="project__description">Connect-4 in 4 directions.</p>
+                                    <a href="https://github.com/emulrooney/Orbital4" class="button--outline white">
+                                        <i class="fab fa-github"></i>
+                                        Github
+                                    </a>
+                                    <!-- <a href="#" class="button--outline white">
+                                        <i class="fas fa-newspaper"></i>
+                                        Learn More
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="project__tags">
+                            <li class="tags__main">Java</li>
+                            <li class="tags__secondary">JavaFX</li>
+                        </ul>
+                    </li>
+                    <li class="project">
+                        <div class="project__item">
+                            <h5 class="project__title">Pangolin Dinner</h5>
+                            <img src="./content/projects/project-PangolinDinner.png"
+                                aria-label="Screenshot of Pangolin Dinner gameplay" />
+                            <div class="project__overlay">
+                                <div class="project__text">
+                                    <p class="project__description">Winner, Mohawk GameJam '18.</p>
+                                    <a href="https://github.com/emulrooney/PangolinGameJam" class="button--outline white">
+                                        <i class="fab fa-github"></i>
+                                        Github
+                                    </a>
+                                    <a href="#" class="button--outline white">
+                                        <i class="fas fa-gamepad"></i>
+                                        Try it out!
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="project__tags">
+                            <li class="tags__main">Unity</li>
+                            <li class="tags__main">C#</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h4 class="panel__title">Contact</h4>
+            <div class="panel">
+                <h5>Email</h5>
+                <p>Contact form coming soon.</p>
+                <p>For now, check my resume for my email.</p>
+
+                <!-- <form>
+                    //COMING SOON!
+
+                    <legend>Message me!</legend>
+
+                    <label for="contactName">Name</label>
+                    <input type="text" required name="contactName" />
+
+                    <label for="contactEmail">Email</label>
+                    <input type="text" required name="contactEmail" />
+
+                    <label for="contactTitle">Title</label>
+                    <input type="text" required name="contactEmail" />
+
+                    <label for="contactBody">Message</label>
+                    <textarea required name="contactMessage"> </textarea>
+
+                    <button type="button">Submit Message!</button>
+
+                </form> -->
+
+                <div class="contact__socials">
+
+
+                    <h5>Social Media</h5>
+                    <ul class="contact__socials__list">
+                        <li>
+                            <a href="http://linkedin.com/in/evan-mulrooney-0930b6a1/" class="button--outline main">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/emulrooney" class="button--outline main">
+                                <i class="fab fa-github"></i> Github
+                            </a>
+                            <a href="https://twitter.com/emulr00ney" class="button--outline main">
+                                <i class="fab fa-twitter"></i> Twitter
+                            </a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+
+
+
+
+            </div>
+
+        </section>
+    </main>
+</body>
+
+<footer>
+    <p>This page was built with <a href="https://sass-lang.com/">SASS</a>.
+        The font used is <a href="https://fonts.google.com/specimen/Barlow">Barlow</a>, available through Google fonts.
+        This page also employs icons from <a href="">Font Awesome</a>.</p>
+</footer>
+
+</html>
