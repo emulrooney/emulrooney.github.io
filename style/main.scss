@@ -96,6 +96,12 @@ nav {
 
     a {
         color: $color-main;
+        transition: .2s all ease;
+    }
+
+    a:hover {
+        font-size: 1.05em;
+        color: #575555;
     }
 }
 
@@ -244,42 +250,52 @@ li[class^="tags__"] {
     display: flex;
     width: 100%;
     padding: 0;
-
-    li {
-        width: 30%;
-    }
 }
 
-.button--outline {
+[class^="button"] {
     padding: $size-s;
     border-radius: $size-s / 2; 
-    border: 1px solid;
     margin: $size-s;
     font-size: .75em;
     transition: 0.2s all ease;
-    
-    a {
-        color: inherit;
+
+    &[class*=--large] {
+        font-size: 1.5em;
     }
 
-
-    &.white {
-        color: white;
-        border-color: white;
-
-        &:hover {
-            background-color: white;
-            color: $color-main;
+    &[class*=--outline] {
+        border: 1px solid;
+        
+        a {
+            color: inherit;
         }
-    }
-
-    &.main {
-        color: $color-main;
-        border-color: $color-main;
-
-        &:hover {
-            background-color: $color-main;
+        
+        
+        &.white {
             color: white;
+            border-color: white;
+        
+            &:hover {
+                background-color: white;
+                color: $color-main;
+            }
         }
+        
+        &.main {
+            color: $color-main;
+            border-color: $color-main;
+        
+            &:hover {
+                background-color: $color-main;
+                color: white;
+            }
+        }
+
     }
+
+
+}
+
+.button--outline {
+    
 }

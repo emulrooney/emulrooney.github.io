@@ -82,6 +82,11 @@ nav {
 }
 .nav__list a {
   color: #252222;
+  transition: 0.2s all ease;
+}
+.nav__list a:hover {
+  font-size: 1.05em;
+  color: #575555;
 }
 
 .nav--opaque {
@@ -213,34 +218,36 @@ li[class^=tags__][class*=secondary] {
   width: 100%;
   padding: 0;
 }
-.contact__socials__list li {
-  width: 30%;
-}
 
-.button--outline {
+[class^=button] {
   padding: 8px;
   border-radius: 4px;
-  border: 1px solid;
   margin: 8px;
   font-size: 0.75em;
   transition: 0.2s all ease;
 }
-.button--outline a {
+[class^=button][class*="--large"] {
+  font-size: 1.5em;
+}
+[class^=button][class*="--outline"] {
+  border: 1px solid;
+}
+[class^=button][class*="--outline"] a {
   color: inherit;
 }
-.button--outline.white {
+[class^=button][class*="--outline"].white {
   color: white;
   border-color: white;
 }
-.button--outline.white:hover {
+[class^=button][class*="--outline"].white:hover {
   background-color: white;
   color: #252222;
 }
-.button--outline.main {
+[class^=button][class*="--outline"].main {
   color: #252222;
   border-color: #252222;
 }
-.button--outline.main:hover {
+[class^=button][class*="--outline"].main:hover {
   background-color: #252222;
   color: white;
 }
