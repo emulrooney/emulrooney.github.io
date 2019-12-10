@@ -59,10 +59,6 @@ footer p {
   background-color: rgba(255, 255, 255, 0.66);
 }
 
-.about {
-  margin-top: 64px;
-}
-
 nav {
   position: sticky;
   background-color: transparent;
@@ -114,8 +110,14 @@ nav {
   vertical-align: top;
 }
 
+.about {
+  margin-top: 64px;
+  display: flex;
+}
+
 .about__text {
-  max-width: 60%;
+  max-width: 70%;
+  padding: 0 2%;
 }
 
 .about__headshot {
@@ -125,6 +127,7 @@ nav {
 .about__headshot img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .projects__container {
@@ -165,7 +168,7 @@ nav {
   height: 0;
   transition: 0.5s ease;
 }
-.project__item:hover .project__overlay {
+.project__item:hover .project__overlay, .project__item .project__overlay.force-show {
   height: 100%;
 }
 .project__item .project__text {
@@ -219,37 +222,46 @@ li[class^=tags__][class*=secondary] {
   padding: 0;
 }
 
-[class^=button] {
+button {
+  background-color: transparent;
+  color: #252222;
+}
+
+[class^=button], button {
   padding: 8px;
   border-radius: 4px;
   margin: 8px;
   font-size: 0.75em;
   transition: 0.2s all ease;
 }
-[class^=button][class*="--large"] {
+[class^=button][class*="--large"], button[class*="--large"] {
   font-size: 1.5em;
 }
-[class^=button][class*="--outline"] {
+[class^=button][class*="--outline"], button[class*="--outline"] {
   border: 1px solid;
 }
-[class^=button][class*="--outline"] a {
+[class^=button][class*="--outline"] a, button[class*="--outline"] a {
   color: inherit;
 }
-[class^=button][class*="--outline"].white {
+[class^=button][class*="--outline"].white, button[class*="--outline"].white {
   color: white;
   border-color: white;
 }
-[class^=button][class*="--outline"].white:hover {
+[class^=button][class*="--outline"].white:hover, button[class*="--outline"].white:hover {
   background-color: white;
   color: #252222;
 }
-[class^=button][class*="--outline"].main {
+[class^=button][class*="--outline"].main, button[class*="--outline"].main {
   color: #252222;
   border-color: #252222;
 }
-[class^=button][class*="--outline"].main:hover {
+[class^=button][class*="--outline"].main:hover, button[class*="--outline"].main:hover {
   background-color: #252222;
   color: white;
+}
+
+.display--none {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -73,9 +73,6 @@ footer {
     background-color: rgba(255,255,255,0.66);
 }
 
-.about {
-    margin-top: 64px;
-}
 
 nav {
     position: sticky;
@@ -93,12 +90,12 @@ nav {
     text-align: center;
     padding: 0;
     list-style: none;
-
+    
     a {
         color: $color-main;
         transition: .2s all ease;
     }
-
+    
     a:hover {
         font-size: 1.05em;
         color: #575555;
@@ -107,14 +104,14 @@ nav {
 
 .nav--opaque {
     background-color: rgba(255, 255, 255, 0.75);
-
-
+    
+    
     &:hover {
         background-color: rgba(250, 250, 250, 1);
     }
     
     
-
+    
     .nav__list {
         margin: 0;
         right: 0;
@@ -136,8 +133,14 @@ nav {
     vertical-align: top;
 }
 
+.about {
+    margin-top: 64px;
+    display: flex;
+}
+
 .about__text {
-    max-width: 60%;
+    max-width: 70%;
+    padding: 0 2%;
 }
 
 .about__headshot {
@@ -147,6 +150,7 @@ nav {
 .about__headshot img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .projects__container {
@@ -190,7 +194,7 @@ nav {
         transition: .5s ease;
       }
       
-      &:hover .project__overlay {
+      &:hover .project__overlay, .project__overlay.force-show {
         height: 100%;
       }
       
@@ -252,7 +256,12 @@ li[class^="tags__"] {
     padding: 0;
 }
 
-[class^="button"] {
+button {
+    background-color: transparent;
+    color: $color-main;
+}
+
+[class^="button"], button {
     padding: $size-s;
     border-radius: $size-s / 2; 
     margin: $size-s;
@@ -292,10 +301,9 @@ li[class^="tags__"] {
         }
 
     }
-
-
 }
 
-.button--outline {
-    
+.display--none {
+    display: none;
 }
+
