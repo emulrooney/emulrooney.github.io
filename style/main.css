@@ -144,6 +144,16 @@ nav {
   max-width: 30%;
   margin-bottom: 32px;
 }
+@media (max-width: 800px) {
+  .project {
+    max-width: 45%;
+  }
+}
+@media (max-width: 400px) {
+  .project {
+    max-width: 100%;
+  }
+}
 
 .project__title {
   margin: -1.25em 0 0 0;
@@ -186,6 +196,7 @@ nav {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  padding: 2%;
 }
 
 .project__tags {
@@ -266,6 +277,10 @@ button {
 
 .display--none {
   display: none;
+}
+
+.black a {
+  color: #252222;
 }
 
 /*# sourceMappingURL=main.css.map */

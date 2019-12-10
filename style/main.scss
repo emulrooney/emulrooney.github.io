@@ -131,6 +131,7 @@ nav {
 .about__headshot, .about__text {
     display: inline-block;
     vertical-align: top;
+
 }
 
 .about {
@@ -166,7 +167,16 @@ nav {
 .project {
     max-width: 30%;
     margin-bottom: $size-l;
+
+    @media (max-width: 800px) {
+        max-width: 45%;
+    }
+
+    @media (max-width: 400px) {
+        max-width: 100%;
+    }
 }
+
 
 .project__title {
     margin: -1.25em 0 0 0;
@@ -213,6 +223,7 @@ nav {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
+        padding: 2%;
       }
 }
 
@@ -311,3 +322,8 @@ button {
     display: none;
 }
 
+.black {
+    a {
+        color: $color-main;
+    }
+}
