@@ -1,21 +1,6 @@
-/*
-    PALETTE
-    Gray Nickel #b6b6b2
-
-    Outer Space
-    #2f3a41
-
-    Kabul
-    #6b4b3f
-
-    Roman Coffee
-    #7b6050
-*/
-
 body {
     background: #f0f2f4;
-    body: #222;
-    /* background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png"); */
+    background-image: url(../images/bg-cardboard.png);
 }
 
 a {
@@ -77,10 +62,11 @@ section {
     background: none;
     border: 1px solid #6B4B3F;
     font-size: .75em;
-    vertical-align: middle;
     margin-bottom: 8px;
     right: 0;
     border-radius: 4px;
+    width: 36px;
+    text-align: center;
 }
 
 .section__heading__button:hover, .section__heading__button:focus {
@@ -106,8 +92,7 @@ section {
 
 .colors__sidebar {
     background-color: #245;
-    background-image: url(https://www.transparenttextures.com/patterns/argyle.png);
-    /* background-color: #2F3A41; */
+    background-image: url(../images/bg-argyle.png);
     color: white;
 }
 
