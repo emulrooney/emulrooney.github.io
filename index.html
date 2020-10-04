@@ -2,236 +2,352 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Evan Mulrooney - Software Development Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
-    <script src="./scripts/fontawesome.js" crossorigin="anonymous"></script>
-    <script src="./scripts/main.js"></script>
-    <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <title>Evan Mulrooney - Full-Stack Developer - Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+        integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/menus-min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
-    <nav id="navigation" class="nav--opaque">
-        <ul class="nav__list">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="./content/resume.pdf">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div id="layout" class="pure-g">
+        <div class="pure-u-1 pure-u-md-10-24 sidebar colors__sidebar">
+            <div class="hero--center">
+                <img class="content__image image__border--dark image--rounded mobile--hide" src="images/headshot_cropped.jpg">
 
-    <header>
-        <section class="about panel">
-            <div class="about__headshot">
-                <img src="./content/evanheadshot.jpg" aria-label="Headshot of Evan Mulrooney" />
-            </div>
-            <div class="about__text">
                 <h1>Evan Mulrooney</h1>
-                <h2>Software Development @ Mohawk College</h2>
-                <h3>Graduating December 2020</h3>
-                <p>
-                    Born and raised in Hamilton, Ontario. I'm a Software Development student at Mohawk College, with
-                    previous experience and education in live theatre. I consider myself a compulsive learner and I'm
-                    passionate about problem solving. I bring a keen eye for detail and a track record of thoroughness
-                    to every task, striving for elegant solutions to complicated problems.
-                </p>
-            </div>
-        </section>
-    </header>
-    <main>
-        <section id="projects" class="projects">
-            <h4 class="panel__title">Projects</h4>
-            <div class="panel">
-                <ul class="projects__container">
-                    <li class="project">
-                        <h5 class="project__title">HamArtsMap</h5>
-                        <div class="project__visual">
-                            <img src="./content/projects/project-HamArtsMap.png"
-                                aria-label="Splash screen for HamArtsMap app" />
-                            <div class="project__overlay">
-                                <div class="project__text">
-                                    <p>Find and review public art in Hamilton, ON.</p>
-                                    <a href="https://github.com/emulrooney/HamArtsmap" class="button--outline white">
-                                        <i class="fab fa-github"></i>
-                                        Github
-                                    </a>
-                                    <!-- <a href="#" class="button--outline white js__learn-more" data-learn-more="hamArtsMap">
-                                        <i class="fas fa-newspaper"></i>
-                                        Learn More
-                                    </a> -->
-                                </div>
-                            </div>
-                        </div>
-                        <ul class="project__tags">
-                            <li class="tags__main">HTML/CSS</li>
-                            <li class="tags__main">Javascript</li>
-                            <li class="tags__main">PHP</li>
-                            <li class="tags__secondary">Bing Maps</li>
-                        </ul>
-                    </li>
-                    <!-- <li class="project">
-                        <h5 class="project__title">Grades Calculator</h5>
-                        <div class="project__visual">
-                            <img src="./content/projects/project-GradesCalculator.png"
-                                aria-label="Screenshot of Grades Calculator" />
-                            <div class="project__overlay">
-                                <div class="project__text">
-                                    <p>Enter grades to calculate an average.</p>
-                                    <a href="./content/grades/index.html" class="button--outline white">
-                                        <i class="fas fa-gamepad"></i>
-                                        Try it out!
-                                    </a>
-                                    <a href="#" class="button--outline white js__learn-more" data-learn-more="gradesCalc">
-                                        <i class="fas fa-newspaper"></i>
-                                        Learn More
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <ul class="project__tags">
-                            <li class="tags__main">HTML/CSS</li>
-                            <li class="tags__main">React</li>
-                            <li class="tags__secondary">Javascript</li>
-                        </ul>
-                    </li> -->
-                    <li class="project">
-                        <h5 class="project__title">Mayd.AI @ HTN'19</h5>
-                        <div class="project__visual">
-                            <img src="./content/projects/project-HackTheNorth.png"
-                                aria-label="Logo for Hack the North" />
-                            <div class="project__overlay">
-                                <div class="project__text">
-                                    <p>Fall detection with a repurposed <em><a
-                                                href="https://developer.microsoft.com/en-us/windows/kinect">Kinect</a>.</em>
-                                    </p>
-                                    <a href="https://devpost.com/software/mayd-ai" class="button--outline white">
-                                        <i class="fas fa-newspaper"></i>
-                                        Learn More on Devpost
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <ul class="project__tags">
-                            <li class="tags__main">C#</li>
-                            <li class="tags__main">Project Gesture SDK</li>
-                        </ul>
-                    </li>
-                    <li class="project">
-                        <h5 class="project__title">Pangolin Dinner</h5>
-                        <div class="project__visual">
-                            <img src="./content/projects/project-PangolinDinner.png"
-                                aria-label="Screenshot of Pangolin Dinner gameplay" />
-                                <div class="project__overlay">
-                                <div class="project__text">
-                                    <p class="project__description">Winner, Mohawk GameJam '18.</p>
-                                    <a href="https://github.com/emulrooney/PangolinGameJam"
-                                    class="button--outline white">
-                                        <i class="fab fa-github"></i>
-                                        Github
-                                    </a>
-                                    <a href="./content/projects/pangolinWebGL/index.html" class="button--outline white">
-                                        <i class="fas fa-gamepad"></i>
-                                        Try it out!
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <ul class="project__tags">
-                            <li class="tags__main">Unity</li>
-                            <li class="tags__main">C#</li>
-                        </ul>
-                    </li>
-                    <li class="project">
-                        <h5 class="project__title">Orbital4</h5>
-                        <div class="project__visual">
-                            <img src="./content/projects/project-Orbital4.png"
-                                aria-label="Screenshot of Orbital4 gameplay" />
-                            <div class="project__overlay">
-                                <div class="project__text">
-                                    <p class="project__description">Connect-4 in 4 directions.</p>
-                                    <a href="https://github.com/emulrooney/Orbital4" class="button--outline white">
-                                        <i class="fab fa-github"></i>
-                                        Github
-                                    </a>
-                                    <!-- <a href="#" class="button--outline white">
-                                        <i class="fas fa-newspaper"></i>
-                                        Learn More
-                                    </a> -->
-                                </div>
-                            </div>
-                        </div>
-                        <ul class="project__tags">
-                            <li class="tags__main">Java</li>
-                            <li class="tags__secondary">JavaFX</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
-        </section>
-
-        <section id="contact" class="contact">
-            <h4 class="panel__title">Contact</h4>
-            <div class="panel">
-                <h5>Email</h5>
-                <p>Contact form coming soon.</p>    
-                <p>For now, check my resume for my email.</p>
-
-                <!-- <form>
-                    //COMING SOON!
-
-                    <legend>Message me!</legend>
-
-                    <label for="contactName">Name</label>
-                    <input type="text" required name="contactName" />
-
-                    <label for="contactEmail">Email</label>
-                    <input type="text" required name="contactEmail" />
-
-                    <label for="contactTitle">Title</label>
-                    <input type="text" required name="contactEmail" />
-
-                    <label for="contactBody">Message</label>
-                    <textarea required name="contactMessage"> </textarea>
-
-                    <button type="button">Submit Message!</button>
-
-                </form> -->
-
-                <div class="contact__socials">
-
-
-                    <h5>Social Media</h5>
-                    <ul class="contact__socials__list">
-                        <li>
-                            <a href="http://linkedin.com/in/evan-mulrooney-0930b6a1/"
-                                class="button--outline button--large main">
-                                <i class="fab fa-linkedin"></i> LinkedIn
-                            </a>
-                            <a href="https://github.com/emulrooney" class="button--outline button--large main">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                            <a href="https://twitter.com/emulr00ney" class="button--outline button--large main">
-                                <i class="fab fa-twitter"></i> Twitter
-                            </a>
+                <h2>Full-Stack Developer based in Hamilton, ON</h2>
+                <nav>
+                    <ul class="pure-menu-list align--center">
+                        <li class="pure-menu-item ">
+                            <a class="pure-menu-link nav__link" href="#aboutHeading">About</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a class="pure-menu-link nav__link" href="#projects">Projects</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a class="pure-menu-link nav__link" href="#resumeHeading">Resume</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a class="pure-menu-link nav__link" href="#contact">Contact</a>
                         </li>
                     </ul>
-                </div>
-
-
-
-
+                </nav>
             </div>
+        </div>
 
-        </section>
-    </main>
+        <div class="pure-u-1 pure-u-md-14-24 content">
+            <section id="about">
+                <h2 id="aboutHeading" class="section__heading">About Me</h2>
+
+                <p>
+                    I'm in my final semester at <a href="https://mohawkcollege.ca">Mohawk College</a> studying <em>Software Development</em>,
+                    and I'm
+                    also a graduate of the <em>Dramatic Arts</em> program at <a href="https://brocku.ca">Brock University</a>. Most
+                    recently, I
+                    worked on <em>Outcome</em> and <em>Outcome Campus Connect</em> at
+                    <a href="https://orbiscommunications.com">Orbis Communications</a> in Hamilton, ON. At Orbis, I worked with the UI/UX Team with a
+                    focus on
+                    accessibility and usability for software used by 100+ post-secondary institutions across North
+                    America.
+                </p>
+                <h3>
+                    Skills
+                </h3>
+                <ul class="list--plain disable-margin list--no-padding">
+                    <li><strong>Languages: </strong>C#, HTML & CSS; Java, JavaScript, PHP, Python, SQL</li>
+                    <li><strong>Frameworks: </strong>.NET Core; React; Vue</li>
+                    <li><strong>Technologies: </strong>Azure; Git; Godot; jQuery; Node.js; SASS; Selenium; Unity; Wordpress</li>
+                    <li><strong>Misc: </strong>Jira, French (working proficiency); Technical Writing; Unit Testing</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2 id="projectsHeading" class="section__heading">
+                    Projects
+                </h2>
+                <h3 class="subtitle--center text--uppercase">Professional</h3>
+                <div class="project__item">
+                    <h4 class="project__item__title justify--space-between display--flex">
+                        <span>Outcome Campus Connect</span>
+                        <span>Orbis Communications</span>
+                    </h4>
+                    <div class="project__item__content">
+                        <img class="project__item__image" src="images/project-OCC.png" aria-label="Screenshot of Login for Outcome Campus Connect" />
+                        <div class="project__item__blurb">
+                            Developer on Outcome Campus Connect project as part of co-op terms with Orbis Communications. 
+                            Contributed to project from May-August 2019 and April-August 2020.
+                        </div>
+                    </div>
+                    <div class="project__item__details pure-g">
+                        <div class="pure-u-3-5">
+                            <h5>Contributions of Note:</h5>
+                            <ul>
+                                <li>Extensions to chart library including custom legends, fullscreen mode and improved keyboard accessibility</li>
+                                <li>Use of charts to provide data visualization on admin's reporting dashboard</li>
+                                <li>Reworking content to adhere to WCAG AA specifications</li>
+                                <li>Implementing further a11y recommendations as per results of external accessibility audit</li>                            
+                            </ul>
+                        </div>
+                        <div class="pure-u-2-5">
+                            <h5 class="subtitle--center">Tech Used:</h5>
+                            <ul class="list--plain">
+                                <li>ASP.NET Core</li>
+                                <li>C#</li>
+                                <li>Javascript</li>
+                                <li>Node.js</li>
+                                <li>SQL</li>
+                                <li>Vue</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project__item">
+                    <h4 class="project__item__title">
+                        <span>Outcome</span>
+                        <span>Orbis Communications</span>
+                    </h4>
+                    <div class="project__item__content">
+                        <img class="project__item__image" src="images/project-Outcome.png" aria-label="Screenshot of Login for Outcome" />
+                        <div class="project__item__blurb">
+                            Contributed to Outcome during all three co-op terms with Orbis, from May-August 2019 and April-August 2020.
+                        </div>
+                        <div class="project__item__details pure-g">
+                            <div class="pure-u-3-5">
+                                <h5>Contributions of Note:</h5>
+                                <ul>
+                                    <li>Developed rework of 'Insights' module, providing data visualization for 12 other modules in a user-friendly manner.</li>
+                                    <li>Created modular, reusable UI tags in Vue and ASP.NET Core to reduce development time.</li>
+                                    <li>Modified product functionality and visual styling to meet WCAG 2.1 AA requirements.</li>
+                                    <li>Identified and resolved bugs and issues on front-end relating to large scale UI upgrades for all customers.</li>
+                                </ul>
+                            </div>
+                            <div class="pure-u-2-5">
+                                <h5 class="subtitle--center">Tech Used:</h5>
+                                <ul class="list--plain">
+                                    <li>Java</li>
+                                    <li>JavaScript</li>
+                                    <li>Spring</li>
+                                    <li>SQL</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <h3 class="subtitle--center text--uppercase">Older Work</h3>
+                <div class="display--flex justify--space-between">
+                    <!-- <div class="project__item--small">
+                        <img class="project__item__image" src="images/project-GradesCalculator.png">
+                        <h4 class="subtitle--center text--uppercase">React Grades Calculator</h4>
+                        <p>JS, React. Simple grades calculator.</p>
+                    </div> -->
+                    <div class="project__item--small">
+                        <img class="project__item__image" src="images/project-HamArtsMap.png">
+                        <h4 class="subtitle--center text--uppercase">
+                            <a href="https://github.com/emulrooney/hamArtsMap">HamArtsMap</a>
+                        </h4>
+                        <p>PHP, JS. Find museums and galleries in Hamilton.</p>
+                    </div>
+                    <div class="project__item--small">
+                        <img class="project__item__image" src="images/project-HackTheNorth.png">
+                        <h4 class="subtitle--center text--uppercase">
+                            <a href="https://devpost.com/software/mayd-ai">Mayd.AI (HTN Entry)</a>
+                        </h4>
+                        <p>C#. Gesture-detection for seniors in distress. Hack the North entry, 2019.</p>
+                    </div>
+                    <div class="project__item--small">
+                        <img class="project__item__image" src="images/project-Orbital4.png">
+                        <h4 class="subtitle--center text--uppercase">
+                            <a href="https://github.com/emulrooney/Orbital4">Orbital4</a>
+                        </h4>
+                        <p>Java. Connect-4, but in multiple directions.</p>
+                    </div>
+                    <div class="project__item--small">
+                        <img class="project__item__image" src="images/project-PangolinDinner.png">
+                        <h4 class="subtitle--center text--uppercase">
+                            <a href="pangolinWebGL/index.html">
+                                Pangolin Dinner
+                            </a>
+                        </h4>
+                        <p>Unity/C#. Timed maze game. Mohawk GameJam winner, 2018.</p>
+                    </div>
+                </div>
+            </section>
+                
+                <section id="resume">
+                    <h2 id="resumeHeading" class="section__heading display--flex justify--space-between">
+                    Resume
+                    <button class="section__heading__button" aria-label="Download as PDF">
+                        <i class="material-icons">picture_as_pdf</i>
+                    </button>
+                </h2>
+
+                <div>
+                    <h3 class="subtitle--center text--uppercase">Employment</h3>
+
+                    <ul class="list--plain list--no-padding">
+                        <li>
+                            <h4 class="resume__item__title disable-margin">
+                                <span>Co-op Software Developer</span>
+                                <span>Orbis Communications</span>
+                                <span>April 2020 - August 2020</span>
+                            </h4>
+                            <ul>
+                                <li><em>Outcome Campus Connect Accessibility Audit</em>
+                                    <ul>
+                                        <li>Built dashboard prototype providing configurable ‘at-a-glance’ data
+                                            visualization for 12
+                                            installed modules</li>
+                                        <li>Reworked existing module to upgrade visuals and usability of 50+ charts and
+                                            tables</li>
+                                    </ul>
+                                <li><em>Outcome Campus Connect Accessibility Audit</em>
+                                    <ul>
+                                        <li>Modified product functionality and visual styling to adhere to WCAG 2.1 AA
+                                            requirements</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h4 class="resume__item__title disable-margin">
+                                <span>Co-op Software Developer</span>
+                                <span>Orbis Communications</span>
+                                <span>January 2019 - August 2019</span>
+                            </h4>
+                            <ul>
+                                <li>Built dashboard prototype providing configurable ‘at-a-glance’ data visualization
+                                    for 12
+                                    installed modules</li>
+                                <li>Reworked existing module to upgrade visuals and usability of 50+ charts and tables
+                                </li>
+                                <li><em>Outcome Campus Connect Accessibility Audit</em>
+                                    <ul>
+                                        <li>Modified product functionality and visual styling to adhere to WCAG 2.1 AA
+                                            requirements</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h4 class="resume__item__title disable-margin">
+                                <span>Peer Tutor</span>
+                                <span>Mohawk College</span>
+                                <span>September 2019 - December 2019</span>
+                            </h4>
+                            <ul>
+                                <li>Provided additional support for students learning Python, HTML, CSS, Math,
+                                    JavaScript, Java, Excel</li>
+                                <li>Supervised and supported student learning in weekly open labs</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h4 class="resume__item__title disable-margin">
+                                <span>Researcher, School of Liberal Studies</span>
+                                <span>Mohawk College</span>
+                                <span>May 2019 - August 2019</span>
+                            </h4>
+                            <ul>
+                                <li>Analyzed and reported on student success across all Mohawk faculties by demographic
+                                    and enrollment year</li>
+                                <li>Compiled post-graduation resource listings for students with special needs or
+                                    disabilities</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3 class="subtitle--center text--uppercase">Education</h3>
+
+                    <ul class="list--plain list--no-padding">
+                        <li>
+                            <h4 class="resume__item__title disable-margin">
+                                <span>Hamilton, ON</span>
+                                <span>Mohawk College</span>
+                                <span>Fall 2017 - Winter 2020</span>
+                            </h4>
+                            <ul>
+                                <li>Advanced Diploma in <em>Computer Systems Technology – Software Development</em>
+                                    (Anticipated)</li>
+                                <li><em>Dean’s Honours List</em> for all semesters to date and GPA of 90%</li>
+                                <li>Coursework: Data Structures & Algorithms; Front-End Development; Discrete Math &
+                                    Statistics; Project Management; Entrepreneurship; Technical Writing; Advanced
+                                    Programming in .NET</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4 class="resume__item__title disable-margin">
+                                <span>St Catharines, ON</span>
+                                <span>Brock University</span>
+                                <span>Fall 2009 - Spring 2013</span>
+                            </h4>
+                            <ul>
+                                <li>Bachelor of Arts (Honours) in <em>Dramatic Arts</em></li>
+                                <li>Performed in or provided technical assistance to 12 extra-curricular productions across 4 years</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3 class="subtitle--center text--uppercase">Additional Experience & Awards</h3>
+                    <ul>
+                        <li><em>Best Overall Game</em>: Pangolin Dinner at Mohawk’s first ever game jam</li>
+                        <li>Co-founded <em>Fulcrum Theatre</em> (2011-2013), a Hamilton based indie theatre company</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2 id="contactHeading" class="section__heading">Contact Me</h2>
+                <div class="pure-g">
+                    <div class="pure-u-1-2">
+                        <h3 class="subtitle--center text--uppercase">Email</h3>
+                        <form action="https://usebasin.com/f/ed2930f7f6e8" method="POST" class="pure-form pure-form-stacked">
+                            <fieldset class="pure-group">
+                                <label for="name">Sender</label>
+                                <input id="contactName" name="name" type="text" class="width--100" placeholder="Your Name" required />
+                                <label for="name">Email</label>
+                                <input id="contactEmail" name="email" type="email" class="width--100" placeholder="email@address.com" required />
+                            </fieldset>
+                            <fieldset class="pure-group">
+                                <label for="subject">Subject Line</label>
+                                <input id="contactSubject" name="subject" type="text" class="width--100" required />
+                                <label for="body">Email Body</label>
+                                <textarea id="contactBody" name="body" class="width--100" required></textarea>
+                            </fieldset>
+                            <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+                            <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Submit</button>
+                        </form>
+                    </div>
+                    
+                    <div class="pure-u-1-2">
+                        <h3 class="subtitle--center text--uppercase">Follow Me</h3>
+                        <ul class="list--plain contact__list">
+                            <li><a href="https://www.linkedin.com/in/evan-mulrooney-0930b6a1/">LinkedIn</a> - mostly used for job searching, not always up to date.</li>
+                            <li><a href="https://github.com/emulrooney">Github</a> - for most of the projects above, and more!</li>
+                            <li><a href="https://codepen.io/emulrooney">CodePen</a> - for ideas that aren't fully fleshed out, including some of my earliest attempts at programming.</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
 </body>
 
-<footer>
-    <p>This page was built with <a href="https://sass-lang.com/">SASS</a>.
-        The font used is <a href="https://fonts.google.com/specimen/Barlow">Barlow</a>, available through Google fonts.
-        This page also employs icons from <a href="">Font Awesome</a>.</p>
-</footer>
+
+
+
+
 
 </html>
