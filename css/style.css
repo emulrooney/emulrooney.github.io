@@ -109,6 +109,16 @@ section {
     object-fit: contain;
 }
 
+.project__item--small:nth-child(odd) {
+    background-color: #22445522;
+}
+
+.project__item--small p {
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 1.5em;
+}
+
 .h4 {
     font-size: 1.03em;
 }
