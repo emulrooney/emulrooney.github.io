@@ -104,11 +104,17 @@ section {
     color: #222 !important;
 }
 
-
-
 .project__item__image {
     max-width: 100%;
     object-fit: contain;
+}
+
+.h4 {
+    font-size: 1.03em;
+}
+
+.margin--t--s {
+    margin-top: 8px;
 }
  
 
@@ -146,7 +152,6 @@ section {
     .resume__item__title span:nth-child(2), .resume__item__title span:nth-child(3)  {
         font-weight: 500;
         font-style: italic;
-        font-size: .90em;
     }
 
     .project__item--small {
