@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/buttons-min.css">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/menus-min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -28,20 +29,20 @@
     <div id="layout" class="pure-g">
         <div class="pure-u-1 pure-u-md-8-24 sidebar colors__sidebar">
             <div class="hero--center">
-                <img class="content__image image__border--dark image--rounded mobile--hide" src="images/headshot_cropped.jpg">
+                <img class="content__image image__border--dark image--rounded mobile--hide" alt="Headshot of Evan Mulrooney" src="images/headshot_cropped.jpg">
 
                 <h1>Evan Mulrooney</h1>
                 <h2>Full-Stack Developer based in Hamilton, ON</h2>
                 <nav>
                     <ul class="pure-menu-list align--center">
                         <li class="pure-menu-item ">
-                            <a class="pure-menu-link nav__link" href="#aboutHeading">About</a>
+                            <a class="pure-menu-link nav__link" href="#about">About</a>
                         </li>
                         <li class="pure-menu-item">
                             <a class="pure-menu-link nav__link" href="#projects">Projects</a>
                         </li>
                         <li class="pure-menu-item">
-                            <a class="pure-menu-link nav__link" href="#resumeHeading">Resume</a>
+                            <a class="pure-menu-link nav__link" href="#resume">Resume</a>
                         </li>
                         <li class="pure-menu-item">
                             <a class="pure-menu-link nav__link" href="#contact">Contact</a>
@@ -92,88 +93,102 @@
                 </h2>
                 <h3 class="subtitle--center text--uppercase">Professional</h3>
 
-                <div class="project__item">
-                    <h4 class="project__item__title justify--space-between display--flex">
-                        <span>Audiobooks.com Web Development</span>
-                        <span>Audiobooks.com</span>
-                    </h4>
-                    <div class="project__item__content">
-                        <img class="project__item__image" src="images/project-AudiobooksDotCom.png" aria-label="Screenshot of splash page for Audiobooks.com" />
-                        <div class="project__item__blurb">
-                            Junior Software Engineer on Audiobooks.com's web development team as of December 2020. Current contributor.</div>
+                <div class="project__major">
+
+                    <div class="project__major--left">
+                        <img class="project__major__image box-shadow--small" src="images/project-AudiobooksDotCom.png" aria-label="Screenshot of splash page for Audiobooks.com" />
                     </div>
-                    <div class="project__item__details pure-g">
-                        <div class="pure-u-3-5">
-                            <h5 class="h4">Contributions of Note:</h5>
-                            <ul>
-                                <li>Massively reduced runtime of data aggregation for customer recommendations</li>
-                                <li>Expansions to customer categorization for better targeted marketing</li>
-                                <li>Extended purchasing system to include support for pre-orders</li>
-                            </ul>
-                        </div>
-                        <div class="pure-u-2-5">
-                            <h5 class="h4 subtitle--center">Tech Used:</h5>
-                            <ul class="list--plain">
-                                <li>AWS</li>
-                                <li>CodeIgniter</li>
-                                <li>Javascript</li>
-                                <li>PHP</li>
-                                <li>SQL</li>
-                            </ul>
+                    <div class="project__major--right display--flex flex--column">
+                        <h4>
+                            Full-Stack Web Development for <a href="https://audiobooks.com">Audiobooks.com</a>
+                        </h4>
+                        Junior Software Engineer on Audiobooks.com's web development team. Current contributor as of December 2020.
+                        <button type="button" class="pure-button pure-input-1-2 margin--t--m pure-button-primary margin--h--auto">Learn More</button>
+                    </div>
+
+                    <div style="display:none;">
+                        <!-- TODO gotta figure out how to put this in place. -->
+                        <div class="project__item__details pure-g">
+                            <div class="pure-u-3-5">
+                                <h5 class="h4">Contributions of Note:</h5>
+                                <ul>
+                                    <li>Massively reduced runtime of data aggregation for customer recommendations</li>
+                                    <li>Expansions to customer categorization for better targeted marketing</li>
+                                    <li>Extended purchasing system to include support for pre-orders</li>
+                                </ul>
+                            </div>
+                            <div class="pure-u-2-5">
+                                <h5 class="h4 subtitle--center">Tech Used:</h5>
+                                <ul class="list--plain">
+                                    <li>AWS</li>
+                                    <li>CodeIgniter</li>
+                                    <li>Javascript</li>
+                                    <li>PHP</li>
+                                    <li>SQL</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="project__item">
-                    <h4 class="project__item__title justify--space-between display--flex">
-                        <span>Outcome Campus Connect</span>
-                        <span>Orbis Communications</span>
-                    </h4>
-                    <div class="project__item__content">
-                        <img class="project__item__image" src="images/project-OCC.png" aria-label="Screenshot of Login for Outcome Campus Connect" />
-                        <div class="project__item__blurb">
-                            Developer on Outcome Campus Connect project as part of co-op terms with Orbis
-                            Communications.
-                            Contributed to project from May-August 2019 and April-August 2020.
-                        </div>
+                <div class="project__major">
+                    <div class="project__major--left display--flex flex--column">
+                        <h4>
+                            Outcome Campus Connect for <a href="https://orbiscommunications.com">Orbis Communications</a>
+                        </h4>
+                        Developer on Outcome Campus Connect project as part of co-op terms with Orbis
+                        Communications. Contributed to project from May-August 2019 and April-August 2020.
+                        <button type="button" class="pure-button pure-input-1-2 pure-button-primary margin--t--m  margin--h--auto">Learn More</button>
                     </div>
-                    <div class="project__item__details pure-g">
-                        <div class="pure-u-3-5">
-                            <h5 class="h4">Contributions of Note:</h5>
-                            <ul>
-                                <li>Extensions to chart library including custom legends, fullscreen mode and improved
-                                    keyboard accessibility</li>
-                                <li>Use of charts to provide data visualization on admin's reporting dashboard</li>
-                                <li>Reworking content to adhere to WCAG AA specifications</li>
-                                <li>Implementing further a11y recommendations as per results of external accessibility
-                                    audit</li>
-                            </ul>
-                        </div>
-                        <div class="pure-u-2-5">
-                            <h5 class="h4 subtitle--center">Tech Used:</h5>
-                            <ul class="list--plain">
-                                <li>ASP.NET Core</li>
-                                <li>C#</li>
-                                <li>Javascript</li>
-                                <li>Node.js</li>
-                                <li>SQL</li>
-                                <li>Vue</li>
-                            </ul>
+                    <div class="project__major--right">
+                        <img class="project__major__image box-shadow--small" src="images/project-OCC.png" aria-label="Screenshot of Login for Outcome Campus Connect" />
+                    </div>
+
+                    <div style="display:none;">
+                        <!-- TODO gotta figure out how to put this in place. -->
+                        <div class="project__item__details pure-g">
+                            <div class="pure-u-3-5">
+                                <h5 class="h4">Contributions of Note:</h5>
+                                <ul>
+                                    <li>Extensions to chart library including custom legends, fullscreen mode and improved
+                                        keyboard accessibility</li>
+                                    <li>Use of charts to provide data visualization on admin's reporting dashboard</li>
+                                    <li>Reworking content to adhere to WCAG AA specifications</li>
+                                    <li>Implementing further a11y recommendations as per results of external accessibility
+                                        audit</li>
+                                </ul>
+                            </div>
+                            <div class="pure-u-2-5">
+                                <h5 class="h4 subtitle--center">Tech Used:</h5>
+                                <ul class="list--plain">
+                                    <li>ASP.NET Core</li>
+                                    <li>C#</li>
+                                    <li>Javascript</li>
+                                    <li>Node.js</li>
+                                    <li>SQL</li>
+                                    <li>Vue</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="project__item">
-                    <h4 class="project__item__title">
-                        <span>Outcome</span>
-                        <span>Orbis Communications</span>
-                    </h4>
-                    <div class="project__item__content">
-                        <img class="project__item__image" src="images/project-Outcome.png" aria-label="Screenshot of Login for Outcome" />
-                        <div class="project__item__blurb">
-                            Contributed to Outcome during all three co-op terms with Orbis, from May-August 2019 and
-                            April-August 2020.
-                        </div>
+
+                <div class="project__major">
+                    <div class="project__major--left">
+                        <img class="project__major__image box-shadow--small" src="images/project-Outcome.png" aria-label="Screenshot of Login for Outcome Campus Connect" />
+                    </div>
+                    <div class="project__major--right display--flex flex--column">
+                        <h4>
+                            Outcome for <a href="https://orbiscommunications.com">Orbis Communications</a>
+                        </h4>
+                        Contributed to Outcome during all three co-op terms with Orbis, from May-August 2019 and
+                        April-August 2020.
+                        <button type="button" class="pure-button pure-input-1-2 margin--t--m pure-button-primary  margin--h--auto">Learn More</button>
+                    </div>
+
+                    <div style="display:none;">
+                        <!-- TODO gotta figure out how to put this in place. -->
                         <div class="project__item__details pure-g">
                             <div class="pure-u-3-5">
                                 <h5 class="h4">Contributions of Note:</h5>
@@ -198,66 +213,89 @@
                                 </ul>
                             </div>
                         </div>
+                    </div>
+                </div>
 
-                    </div>
-                </div>
-                <h3 class="subtitle--center text--uppercase">Older Work</h3>
-                <div class="display--flex justify--space-between">
-                    <div class="project__item--small">
-                        <img class="project__item__image" src="images/project-GodotRTWP.png">
-                        <h4 class="subtitle--center text--uppercase">
-                            <a href="https://github.com/emulrooney/godot-rtwp">Godot RPG</a>
-                        </h4>
-                        <p><strong>Very unfinished. C#.</strong> Real-time with pause RPG in Godot.</p>
-                    </div>
-                    <div class="project__item--small">
-                        <img class="project__item__image" src="images/project-GradesCalculator.png">
-                        <h4 class="subtitle--center text--uppercase">
-                            <a href="content/reactGradesCalculator/index.html">React Grades Calculator</a>
-                        </h4>
-                        <p><strong>JS, React.</strong> Simple grades calculator.</p>
-                    </div>
-                    <div class="project__item--small">
-                        <img class="project__item__image" src="images/project-HamArtsMap.png">
-                        <h4 class="subtitle--center text--uppercase">
-                            <a href="https://github.com/emulrooney/hamArtsMap">HamArtsMap</a>
-                        </h4>
-                        <p><strong>PHP, JS.</strong> Find museums and galleries in Hamilton.</p>
-                    </div>
-                    <div class="project__item--small">
-                        <img class="project__item__image" src="images/project-HackTheNorth.png">
-                        <h4 class="subtitle--center text--uppercase">
-                            <a href="https://devpost.com/software/mayd-ai">Mayd.AI (HTN Entry)</a>
-                        </h4>
-                        <p><strong>C#.</strong> Gesture-detection for seniors in distress. Hack the North entry, 2019.
-                        </p>
-                    </div>
-                    <div class="project__item--small">
-                        <img class="project__item__image" src="images/project-Orbital4.png">
-                        <h4 class="subtitle--center text--uppercase">
-                            <a href="https://github.com/emulrooney/Orbital4">Orbital4</a>
-                        </h4>
-                        <p><strong>Java.</strong> Connect-4, but in multiple directions.</p>
-                    </div>
-                    <div class="project__item--small">
-                        <img class="project__item__image" src="images/project-PangolinDinner.png">
-                        <h4 class="subtitle--center text--uppercase">
-                            <a href="content/pangolinWebGL/index.html">
-                                Pangolin Dinner
+                <h3 class="subtitle--center text--uppercase">Side Projects, Hackathons and Older Work</h3>
+
+                <ul class="display--flex flex--column list--no-padding list--plain">
+                    <li class="project__minor display--flex">
+                        <img class="project__minor__image box-shadow--small" alt="Screenshot of Godot RPG" src="images/project-GodotRTWP.png">
+                        <div class="project__minor__text">
+                            <h4 class="project__minor__title">
+                                Godot RPG Demo (C#, Godot Engine.)
+                            </h4>
+                            <a class="pure-button pure-input-1-2 pure-button-primary button--xsmall" href="https://github.com/emulrooney/godot-rtwp">Git Repository</a>
+                            <a class="pure-button pure-input-1-2 pure-button-primary button--xsmall" href="https://www.youtube.com/watch?v=JtKmaRH_t0I">Watch Demo Video</a>
+                            <p>Replicating realtime with pause gameplay from Infinity Engine games. Point & click to move, engage enemies and
+                                use abilities. <em>Very</em> unfinished.</p>
+                        </div>
+                    </li>
+
+                    <li class="project__minor display--flex">
+                        <img class="project__minor__image box-shadow--small" alt="Screenshot of React Grades Calculator" src="images/project-GradesCalculator.png">
+                        <div class="project__minor__text">
+                            <h4 class="project__minor__title">
+                                Grades Calculator (JS, React.)
+                            </h4>
+                            <a class="pure-button pure-input-1-2 pure-button-primary button--xsmall" href="content/reactGradesCalculator/index.html">
+                                Try it!
                             </a>
-                        </h4>
-                        <p><strong>Unity, C#.</strong> Timed maze game. Mohawk GameJam winner, 2018.</p>
-                    </div>
-                </div>
+                            <p> Simple grades calculator.</p>
+                        </div>
+                    </li>
+
+                    <li class="project__minor display--flex">
+                        <img class="project__minor__image box-shadow--small" alt="Screenshot of HamArtsMap Splash" src="images/project-HamArtsMap.png">
+                        <div class="project__minor__text">
+                            <h4 class="project__minor__title">
+                                HamArtsMap (PHP, JS.)
+                            </h4>
+                            <a class="pure-button pure-input-1-2 pure-button-primary button--xsmall" href="https://github.com/emulrooney/hamArtsMap">Git Repository</a>
+                            <a class="pure-button pure-input-1-2 pure-button-primary button--xsmall" href="https://www.youtube.com/watch?v=lCThe2NPr0I">Watch Demo Video</a>
+                            <p>Find local art galleries, museums and public works in Hamilton, Ontario using Hamilton's Open Data. </p>
+                        </div>
+                    </li>
+
+                    <!-- <li class="project__minor display--flex">
+                        <img class="project__minor__image box-shadow--small" alt="Hack the North Logo" src="images/project-HackTheNorth.png">
+                        <div class="project__minor__text">
+                            <h4 class="project__minor__title">
+                                Mayd.AI for Hack The North 2019 (C#.)
+                            </h4>
+                            <a class="pure-button pure-input-1-2 pure-button-primary button--xsmall" href="https://devpost.com/software/mayd-ai">View Devpost</a>
+                            <p>Gesture-detection for seniors in distress using a repurposed Kinect. Hackathon entry. </p>
+                        </div>
+                    </li> -->
+
+                    <li class="project__minor display--flex">
+                        <img class="project__minor__image box-shadow--small" alt="Screenshot of Orbital4 Gameplay" src="images/project-Orbital4.png">
+                        <div class="project__minor__text">
+                            <h4 class="project__minor__title">
+                                Orbital4 (Java.)
+                            </h4>
+                            <a class="pure-button pure-input-1-2 pure-button-primary button--xsmall" href="https://github.com/emulrooney/Orbital4">Git Repository</a>
+                            <p>Connect-4 game, but with players dropping pieces in from four directions. Two-player only. </p>
+                        </div>
+                    </li>
+
+                    <li class="project__minor display--flex">
+                        <img class="project__minor__image box-shadow--small" alt="Screenshot of Pangolin Dinner Gameplay" src="images/project-PangolinDinner.png">
+                        <div class="project__minor__text">
+                            <h4 class="project__minor__title">
+                                Pangolin Dinner for Mohawk Game Jam 2018 (C#, Unity.)
+                            </h4>
+                            <a class="pure-button pure-input-1-2 pure-button-primary button--xsmall" href="https://github.com/emulrooney/PangolinGameJam">Git Repository</a>
+                            <a class="pure-button pure-input-1-2 pure-button-primary button--xsmall" href="content\pangolinWebGL\index.html">Try it!</a>
+                            <p><strong>Winner of Mohawk's first ever game jam.</strong> Maze navigation with a timer. </p>
+                        </div>
+                    </li>
+                </ul>
             </section>
 
             <section id="resume">
                 <h2 id="resumeHeading" class="section__heading display--flex justify--space-between">
                     Resume
-                    <!-- <a role="button" class="section__heading__button" href="content/emulrooney_resume_Oct2020.pdf"
-                        aria-label="Download as PDF">
-                        <i class="material-icons">picture_as_pdf</i>
-                    </a> -->
                 </h2>
 
                 <div>
@@ -388,19 +426,19 @@
                         <h3 class="subtitle--center text--uppercase">Email</h3>
                         <form action="https://usebasin.com/f/ed2930f7f6e8" method="POST" class="pure-form pure-form-stacked">
                             <fieldset class="pure-group">
-                                <label for="name">Sender</label>
+                                <label for="contactName">Sender</label>
                                 <input id="contactName" name="name" type="text" class="width--100" placeholder="Your Name" required />
-                                <label for="name">Email</label>
+                                <label for="contactEmail">Email</label>
                                 <input id="contactEmail" name="email" type="email" class="width--100" placeholder="email@address.com" required />
                             </fieldset>
                             <fieldset class="pure-group">
-                                <label for="subject">Subject Line</label>
+                                <label for="contactSubject">Subject Line</label>
                                 <input id="contactSubject" name="subject" type="text" class="width--100" required />
-                                <label for="body">Email Body</label>
-                                <textarea id="contactBody" name="body" class="width--100" required></textarea>
+                                <label for="contactBody">Email Body</label>
+                                <textarea id="contactBody" name="body" rows="8" class="width--100" required></textarea>
                             </fieldset>
                             <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
-                            <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Submit</button>
+                            <button type="submit" class="pure-button pure-input-1-2 margin--t--s pure-button-primary">Submit</button>
                         </form>
                     </div>
 
