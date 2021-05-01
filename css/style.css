@@ -314,8 +314,16 @@ section {
 
 /* Override PureCSS styles */
 
+.pure-button {
+    transition: all ease-in 0.1s;
+}
+
 .pure-button-primary {
     background-color: #245 !important;
+}
+
+.pure-button-primary:hover {
+    background-color: #9f9f9f !important;
 }
 
 .pure-button.button--xsmall {
@@ -334,3 +342,6 @@ section {
     font-size: 125%;
 }
 
+.pure-button:focus, a:focus {
+    outline: 2px solid #9BC3D7 !important;
+}
