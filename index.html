@@ -30,6 +30,34 @@
 </head>
 
 <body>
+    <!-- Modal Content -->
+    <a href="#projectDungeonwall" class="lightbox" id="lightboxDungeonwall">
+        <img loading="lazy" src="images/project-Dungeonwall.png" alt="Screenshot of Dungeonwall"></img>
+        <span>Click anywhere to close.</span>
+    </a>
+    <a href="#projectGodotRPG" class="lightbox" id="lightboxGodotRPG">
+        <img loading="lazy" src="images/project-GodotRTWP.png" alt="Screenshot of Godot RPG"></img>
+        <span>Click anywhere to close.</span>
+    </a>
+    <a href="#projectGradesCalculator" class="lightbox" id="lightboxGradesCalculator">
+        <img loading="lazy" src="images/project-GradesCalculator.png" alt="Screenshot of React Grades Calculator"></img>
+        <span>Click anywhere to close.</span>
+    </a>
+    <a href="#projectHamArtsMap" class="lightbox" id="lightboxHamArtsMap">
+        <img loading="lazy" src="images/project-HamArtsMap.png" alt="Screenshot of HamArtsMap"></img>
+        <span>Click anywhere to close.</span>
+    </a>
+    <a href="#projectOrbital4" class="lightbox" id="lightboxOrbital4">
+        <img loading="lazy" src="images/project-Orbital4.png" alt="Screenshot of Orbital4"></img>
+        <span>Click anywhere to close.</span>
+    </a>
+    <a href="#projectPangolinDinner" class="lightbox" id="lightboxPangolinDinner">
+        <img loading="lazy" src="images/project-PangolinDinner.png" alt="Screenshot of Pangolin Dinner"></img>
+        <span>Click anywhere to close.</span>
+    </a>
+
+
+    <!-- End of Modal Content-->
     <div id="layout" class="pure-g">
         <div class="pure-u-1 pure-u-md-8-24 sidebar colors__sidebar">
             <div class="hero--center">
@@ -153,10 +181,17 @@
                 <div class="projects__side">
 
                     <h3 class="subtitle--center text--uppercase">Side Projects, Hackathons and Older Work</h3>
+                    <span class="mobile--only align--center">(Click thumbnails to open in larger modal.)</span>
 
                     <ul class="display--flex flex--column list--no-padding list--plain">
-                        <li class="project__minor display--flex">
-                            <img class="project__minor__image box-shadow--small" alt="Screenshot of Godot RPG" src="images/thumbs/project-Dungeonwall.png">
+                        <li class="project__minor display--flex" id="projectDungeonwall">
+                            <a class="lightbox__link" href="#lightboxDungeonwall">
+                                <img class="project__minor__image box-shadow--small" alt="Thumbnail of Dungeonwall. Click to open larger image."
+                                    src="images/thumbs/project-Dungeonwall.png" />
+                                <div class="lightbox__link__overlay">
+                                    <i class="lightbox__icon--zoom fas fa-search-plus"></i>
+                                </div>
+                            </a>
                             <div class="project__minor__text">
                                 <h4 class="project__minor__title">
                                     Dungeonwall (MongoDB, Express, Vue.js, Node.js)
@@ -169,8 +204,14 @@
                             </div>
                         </li>
 
-                        <li class="project__minor display--flex">
-                            <img class="project__minor__image box-shadow--small" alt="Screenshot of Godot RPG" src="images/thumbs/project-GodotRTWP.png">
+                        <li class="project__minor display--flex" id="projectGodotRPG">
+                            <a class="lightbox__link" href="#lightboxGodotRPG">
+                                <img class="project__minor__image box-shadow--small" alt="Thumbnail of Godot RPG. Click to open larger image."
+                                    src="images/thumbs/project-GodotRTWP.png" />
+                                <div class="lightbox__link__overlay">
+                                    <i class="lightbox__icon--zoom fas fa-search-plus"></i>
+                                </div>
+                            </a>
                             <div class="project__minor__text">
                                 <h4 class="project__minor__title">
                                     Godot RPG Demo (C#, Godot Engine)
@@ -184,8 +225,14 @@
                             </div>
                         </li>
 
-                        <li class="project__minor display--flex">
-                            <img class="project__minor__image box-shadow--small" alt="Screenshot of React Grades Calculator" src="images/thumbs/project-GradesCalculator.png">
+                        <li class="project__minor display--flex" id="projectGradesCalculator">
+                            <a class="lightbox__link" href="#lightboxGradesCalculator">
+                                <img class="project__minor__image box-shadow--small" alt="Thumbnail of React Grades Calculator. Click to open larger image."
+                                    src="images/thumbs/project-GradesCalculator.png" />
+                                <div class="lightbox__link__overlay">
+                                    <i class="lightbox__icon--zoom fas fa-search-plus"></i>
+                                </div>
+                            </a>
                             <div class="project__minor__text">
                                 <h4 class="project__minor__title">
                                     Grades Calculator (React)
@@ -197,8 +244,14 @@
                             </div>
                         </li>
 
-                        <li class="project__minor display--flex">
-                            <img class="project__minor__image box-shadow--small" alt="Screenshot of HamArtsMap Splash" src="images/thumbs/project-HamArtsMap.png">
+                        <li class="project__minor display--flex" id="projectHamArtsMap">
+                            <a class="lightbox__link" href="#lightboxHamArtsMap">
+                                <img class="project__minor__image box-shadow--small" alt="Thumbnail of HamArtsMap. Click to open larger image."
+                                    src="images/thumbs/project-HamArtsMap.png" />
+                                <div class="lightbox__link__overlay">
+                                    <i class="lightbox__icon--zoom fas fa-search-plus"></i>
+                                </div>
+                            </a>
                             <div class="project__minor__text">
                                 <h4 class="project__minor__title">
                                     HamArtsMap (PHP, JavaScript)
@@ -210,8 +263,14 @@
                                 <p>Find local art galleries, museums and public works in Hamilton, Ontario using Hamilton's Open Data. </p>
                             </div>
                         </li>
-                        <li class="project__minor display--flex">
-                            <img class="project__minor__image box-shadow--small" alt="Screenshot of Orbital4 Gameplay" src="images/thumbs/project-Orbital4.png">
+                        <li class="project__minor display--flex" id="projectOrbital4">
+                            <a class="lightbox__link" href="#lightboxOrbital4">
+                                <img class="project__minor__image box-shadow--small" alt="Thumbnail of Orbital4. Click to open larger image."
+                                    src="images/thumbs/project-Orbital4.png" />
+                                <div class="lightbox__link__overlay">
+                                    <i class="lightbox__icon--zoom fas fa-search-plus"></i>
+                                </div>
+                            </a>
                             <div class="project__minor__text">
                                 <h4 class="project__minor__title">
                                     Orbital4 (Java)
@@ -222,8 +281,14 @@
                             </div>
                         </li>
 
-                        <li class="project__minor display--flex">
-                            <img class="project__minor__image box-shadow--small" alt="Screenshot of Pangolin Dinner Gameplay" src="images/thumbs/project-PangolinDinner.png">
+                        <li class="project__minor display--flex" id="projectPangolinDinner">
+                            <a class="lightbox__link" href="#lightboxPangolinDinner">
+                                <img class="project__minor__image box-shadow--small" alt="Thumbnail of Pangolin Dinner. Click to open larger image."
+                                    src="images/thumbs/project-PangolinDinner.png" />
+                                <div class="lightbox__link__overlay">
+                                    <i class="lightbox__icon--zoom fas fa-search-plus"></i>
+                                </div>
+                            </a>
                             <div class="project__minor__text">
                                 <h4 class="project__minor__title">
                                     Pangolin Dinner for Mohawk Game Jam 2018 (C#, Unity)
