@@ -181,7 +181,7 @@ section {
     margin-top: .5em;
 }
 
-@media (max-width: 47.99em) {
+@media (max-width: 768px) {
 
     .hero--center h1, .hero--center h2 {
         text-align: center;
@@ -253,7 +253,7 @@ section {
     }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 769px) {
     body {
         font-size: 110%;
     }
@@ -270,6 +270,7 @@ section {
         bottom: 0;
         font-size: 1.5em;
         box-shadow:  4px 4px 14px #9f9f9f, -8px -8px 32px #fff;
+        min-width: 325px;
     }
 
     .hero--center {
