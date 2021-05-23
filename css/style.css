@@ -84,7 +84,7 @@ section {
     width: 50%;
     margin: auto;
     min-width: 200px;
-    max-width: 300px;
+    max-width: 250px;
 }
 
 .image__border--dark {
@@ -101,7 +101,7 @@ section {
 }
 
 .sidebar h2 {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .nav__link {
@@ -122,6 +122,10 @@ section {
 
 .margin--t--m {
     margin-top: 16px;
+}
+
+.margin--b--m {
+    margin-bottom: 16px;
 }
 
 .margin--b--xl {
