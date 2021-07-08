@@ -149,6 +149,28 @@ section {
     margin-right: 16px;
 }
 
+.list--tags {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+}
+
+.list--tags li {
+    font-size: .95em;
+    font-weight: bold;
+    padding: 2px 8px;
+    list-style-type: none;
+    background-color: #245;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 2px;
+    margin-right: 4px;
+}
+
 /* Lightbox */
 
 .lightbox {
