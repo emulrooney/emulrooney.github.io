@@ -17,7 +17,6 @@
   thumb-image: assets/images/thumbs/project-Dungeonwall.png
   thumb-image-aria: Thumbnail screenshot of Dungeonwall wall screen
 
-
 - title: Godot RPG
   repo: godot-rtwp
   tech: Godot, C#
