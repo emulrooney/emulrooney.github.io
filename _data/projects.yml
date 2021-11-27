@@ -1,12 +1,12 @@
-# - title: Beelancer for Github GameOff 2021
-#   repo: beelancer
-#   tech: Godot, C#
-#   blurb: New project
-#   image: assets/images/project-Beelancer.png
-#   image-aria: Screenshot of Beelancer gameplay
-#   thumb-image: assets/images/thumbs/project-Beelancer.png
-#   thumb-image-aria: Thumbnail screenshot of Beelancer gameplay
-#   id: Beelancer
+- title: Beelancer for Github GameOff 2021
+  repo: beelancer
+  tech: Godot, C#
+  blurb: Game jam entry. Fly around, collect pollen, trade between hives, avoid bully bees and birds.
+  image: assets/images/project-Beelancer.png
+  image-aria: Screenshot of Beelancer gameplay
+  thumb-image: assets/images/thumbs/project-Beelancer.png
+  thumb-image-aria: Thumbnail screenshot of Beelancer gameplay
+  id: Beelancer
 
 - title: Dungeonwall
   repo: dungeonwall
