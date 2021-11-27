@@ -1,0 +1,60 @@
+$sizes: (
+    ("none", 0),
+    ("xs", 4px),
+    ("s", 8px),
+    ("m", 16px),
+    ("l", 32px),
+    ("xl", 48px)
+);
+
+$directions: (
+    ("t", "top"),
+    ("l", "left"),
+    ("r", "right"),
+    ("b", "bottom")
+);
+
+@each $size in $sizes {
+    $sizeKey: nth($size, 1);
+    $sizeValue: nth($size, 2);
+
+    .m--#{$sizeKey} {
+      margin: $sizeValue;
+    }
+
+    .p--#{$sizeKey} {
+      padding: $sizeValue;
+    }
+
+    .m--all--#{$sizeKey} {
+        margin: #{$sizeValue};
+    }
+    .m--all--#{$sizeKey} {
+        padding: #{$sizeValue};
+    }
+
+    @each $direction in $directions {
+        $dSymbol: nth($direction, 1);
+        $dAttribute: nth($direction, 2);
+        .m--#{$dSymbol}--#{$sizeKey} {
+            margin-#{$dAttribute}: #{$sizeValue};
+        }
+
+        .p--#{$dSymbol}--#{$sizeKey} {
+            padding-#{$dAttribute}: #{$sizeValue};
+        }
+    }
+}
+
+.display--block {
+    display: block;
+}
+
+.display--inline-block {
+    display: inline-block;
+}
+
+.display--flex {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,20 @@
+- title: Full-Stack Web Development
+  company: Audiobooks.com
+  url: https://audiobooks.com/
+  blurb: Audiobooks.com is a cloud-based provider of online audiobooks with a catalogue of over 250,000 selections.
+  image: assets/images/project-AudiobooksDotCom.png
+  image-aria: Screenshot of Audiobooks.com home page
+
+- title: Outcome Campus Connect
+  company: Orbis Communications
+  url: https://outcomecampusconnect.ca
+  blurb: Outcome Campus Connect provides employers with the means to post targeted experiential learning, skill development, and job opportunities to reach student talent.
+  image: assets/images/project-OCC.png
+  image-aria: Screenshot of Login for Outcome Campus Connect
+
+- title: Outcome
+  company: Orbis Communications
+  url: https://orbiscommunications.com
+  blurb: Outcome connects post-secondary students and graduates to real world experience and opportunities, and is used at over 100 institutions across North America.
+  image: assets/images/project-Outcome.png
+  image-aria: Screenshot of Outcome demo's Experiential Catalogue page

@@ -1,0 +1,72 @@
+# - title: Beelancer for Github GameOff 2021
+#   repo: beelancer
+#   tech: Godot, C#
+#   blurb: New project
+#   image: assets/images/project-Beelancer.png
+#   image-aria: Screenshot of Beelancer gameplay
+#   thumb-image: assets/images/thumbs/project-Beelancer.png
+#   thumb-image-aria: Thumbnail screenshot of Beelancer gameplay
+#   id: Beelancer
+
+- title: Dungeonwall
+  repo: dungeonwall
+  tech: MongoDB, Express, Vue.js, Node.js
+  blurb: Full stack D&D/table-top game aid to organize game notes and character abilities. Work-in-progress!
+  image: assets/images/project-Dungeonwall.png
+  image-aria: Screenshot of Dungeonwall wall screen
+  thumb-image: assets/images/thumbs/project-Dungeonwall.png
+  thumb-image-aria: Thumbnail screenshot of Dungeonwall wall screen
+
+
+- title: Godot RPG
+  repo: godot-rtwp
+  tech: Godot, C#
+  blurb: Replicating realtime with pause gameplay from Infinity Engine games. Point & click to move, engage enemies and use abilities. Very unfinished, shelved for now.
+  video: https://www.youtube.com/watch?v=JtKmaRH_t0I
+  image: assets/images/project-GodotRTWP.png
+  image-aria: Screenshot of Godot RPG gameplay
+  thumb-image: assets/images/thumbs/project-GodotRTWP.png
+  thumb-image-aria: Screenshot of Godot RPG gameplay
+  id: GodotRPG
+
+- title: Grades Calculator
+  tech: React
+  demo: assets/content/reactGradesCalculator/index.html
+  blurb: Simple grades calculator.
+  image: assets/images/project-GradesCalculator.png
+  image-aria: Screenshot of Grades Calculator
+  thumb-image: assets/images/thumbs/project-GradesCalculator.png
+  thumb-image-aria: Thumbnail screenshot of Grades Calculator
+  id: GradesCalc
+
+- title: HamArtsMap
+  tech: PHP, JavaScript
+  video: https://www.youtube.com/watch?v=lCThe2NPr0I
+  repo: hamArtsMap
+  blurb: Find local art galleries, museums and public works in Hamilton, Ontario using Hamilton's Open Data. 
+  image: assets/images/project-HamArtsMap.png
+  image-aria: Screenshot of HamArtsMap search screen
+  thumb-image: assets/images/thumbs/project-HamArtsMap.png
+  thumb-image-aria: Thumbnail screenshot of HamArtsMap search screen
+  id: HamArtsMap
+  
+- title: Orbital4
+  tech: Java
+  repo: Orbital4
+  blurb: Connect-4 game, but with players dropping pieces in from four directions. Two-player only. 
+  image: assets/images/project-Orbital4.png
+  image-aria: Screenshot of Orbital4 gameplay
+  thumb-image: assets/images/thumbs/project-Orbital4.png
+  thumb-image-aria: Thumbnail screenshot of Orbital4 gameplay
+  id: Orbital4
+
+- title: Pangolin Dinner
+  tech: Unity, C#
+  repo: PangolinGameJam
+  blurb: <em>Winner of Mohawk's first ever game jam.</em> Maze navigation with a timer. 
+  demo: assets/content/pangolinWebGL/index.html
+  image: assets/images/project-PangolinDinner.png
+  image-aria: Screenshot of PangolinDinner gameplay
+  thumb-image: assets/images/thumbs/project-PangolinDinner.png
+  thumb-image-aria: Thumbnail screenshot of Pangolin Dinner gameplay
+  id: PangolinDinner
