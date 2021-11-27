@@ -1,8 +1,6 @@
 title: Evan Mulrooney | Software Developer
-email: evanmulrooney@gmail.com
 description: >-
   Evan Mulrooney's software development portfolio.
 root_url: "http://127.0.0.1:4000"
-github_username:  emulrooney
 sass:
     sass_dir: _sass
