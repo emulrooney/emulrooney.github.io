@@ -1,15 +1,16 @@
 # emulrooney.github.io
 Portfolio page.
 
+Built with Jekyll.
+
 ## Left to do:
 
-### Big Problems:
-* CSS should probably be redone in SASS, cleaned up
-* Use Mustache (or some other templating engine) to compile, it's getting a bit disorganized
+### Big Tasks:
+* CSS is partially redone in .scss files but is not quite done.
 * Accessibility pass beyond just using WAVE tools
 * Pixel breakpoints for mobile are more predictable... may need 3 sizes, but switch it over.
 
-### Small Problems:
+### Small Tasks:
 * Add lightbox for major projects too
 * Standard screenshot size
 * Create medium-size screenshots for major projects
