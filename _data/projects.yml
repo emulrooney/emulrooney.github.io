@@ -10,6 +10,7 @@
 
 - title: Dungeonwall
   repo: dungeonwall
+  video: https://www.youtube.com/watch?v=fxwmahfIVFE
   tech: MongoDB, Express, Vue.js, Node.js
   blurb: Full stack D&D/table-top game aid to organize game notes and character abilities. Work-in-progress!
   image: assets/images/project-Dungeonwall.png
