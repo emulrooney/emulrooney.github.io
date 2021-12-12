@@ -1,0 +1,15 @@
+- title: Junior Software Engineer
+  location: Burlington, ON
+  organization: Audiobooks.com
+  timeframe: Winter 2020 - Summer 2021
+  line-items: ["Automated use of AWS Personalize recommendations to run 16x more often and require 75% less developer-time per run",
+                "Integrated new customer attributes and retroactively applied to millions of customers to facilitate targeted marketing",
+                "Work on podcast support including: new API endpoints, lists, splash pages, categorization"]
+
+- title: Co-op Software Developer
+  organization: Orbis Communications
+  timeframe: Winter - Summer 2019, Summer 2020
+  line-items: ["Built 'Insights' dashboard prototype providing ‘at-a-glance’ visualization using 50+ charts and tables across 12 modules",
+                "Modified product functionality and visual styling to adhere to WCAG 2.1 AA requirements",
+                "Converted or rebuilt 200+ client facing pages from Bootstrap 3 to in-house, fully custom UI kits",
+                "Worked with both Outcome and .NET teams to resolve bugs and issues head of major launches"]

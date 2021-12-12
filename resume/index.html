@@ -9,101 +9,47 @@ title: "Resume"
 
 <div>
     <h3 class="subtitle--center text--uppercase">Employment</h3>
-
     <ul class="list--plain list--no-padding">
-        <!-- <li>
-            <h4 class="resume__item__title">
-                <span>Web Developer</span>
-                <span>Race Roster</span>
-                <span>Summer 2021 - Present</span>
-            </h4>
-            <ul>
-                <li>Development of new 'product report' feature to assist event organizer's shipment tracking</li>
-                <li>Refactoring legacy monolith content to fit modern microservice architecture</li>
-            </ul>
-        </li> -->
-
+        {% for work in site.data.resumeWork %}
         <li>
             <h4 class="resume__item__title disable-margin">
-                <span>Junior Software Engineer</span>
-                <span>Audiobooks.com</span>
-                <span>Winter 2020 - Summer 2021</span>
+                <span>{{work.title}}</span>
+                <span>{{work.organization}}</span>
+                <span>{{work.timeframe}}</span>
             </h4>
             <ul>
-                <li>Automated uploads to AWS Personalize machine learning algorithms, causing them to run 16x more frequently and
-                    require 75% less developer-time per run</li>
-                <li>Integrated <em>Braze</em> customer attributes and retroactively applied to millions of customers, facilitating targeted marketing</li>
-                <li>Work on podcast support including: new API endpoints, lists, splash pages, categorization</li>
+                {% for item in work.line-items %}
+                    <li>{{item}}</li>
+                {% endfor %}
             </ul>
         </li>
-
-        <li>
-            <h4 class="resume__item__title disable-margin">
-                <span>Co-op Software Developer</span>
-                <span>Orbis Communications</span>
-                <span>Winter - Summer 2019, Summer 2020</span>
-            </h4>
-            <ul>
-                <li><em>Outcome Insights Module</em>
-                    <ul>
-                        <li>
-                            Built dashboard prototype providing configurable ‘at-a-glance’ data
-                            visualization for 12
-                            installed modules</li>
-                        <li>Reworked existing module to upgrade visuals and usability of 50+ charts and
-                            tables</li>
-                    </ul>
-                <li><em>Outcome Campus Connect</em>
-                    <ul>
-                        <li>Modified product functionality and visual styling to adhere to WCAG 2.1 AA
-                            requirements</li>
-                        <li>Extended charts libraries for improved accessibility, visuals and integration with institutional dashboards</li>
-                    </ul>
-                </li>
-                <li><em>Spiral Robot UI Overhaul</em>
-                    <ul>
-                        <li>Converted or rebuilt 200+ client facing pages from Bootstrap 3 to in-house, fully custom UI kit</li>
-                        <li>Worked with both Outcome and .NET teams to resolve bugs and issues head of major launches</li>
-                        <li>Active participant in brainstorming and design meetings for upcoming features</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
+        {% endfor %}
     </ul>
 
     <h3 class="subtitle--center text--uppercase">Education</h3>
-
     <ul class="list--plain list--no-padding">
+        {% for school in site.data.resumeEducation %}
         <li>
             <h4 class="resume__item__title disable-margin">
-                <span>Hamilton, ON</span>
-                <span>Mohawk College</span>
-                <span>Fall 2017 - Winter 2020</span>
+                <span>{{school.location}}</span>
+                <span>{{school.organization}}</span>
+                <span>{{school.timeframe}}</span>
             </h4>
             <ul>
-                <li>Advanced Diploma in <em>Computer Systems Technology – Software Development</em></li>
-                <li>Honours graduate. Earned <em>Dean’s Honours List</em> for all semesters</li>
-                <li>Coursework: Data Structures & Algorithms; Front-End Development; Discrete Math &
-                    Statistics; Project Management; Technical Writing; Advanced Programming in .NET; Parallel Processing</li>
+                {% for item in school.line-items %}
+                    <li>{{item}}</li>
+                {% endfor %}
             </ul>
         </li>
-        <li>
-            <h4 class="resume__item__title disable-margin">
-                <span>St Catharines, ON</span>
-                <span>Brock University</span>
-                <span>Fall 2009 - Spring 2013</span>
-            </h4>
-            <ul>
-                <li>Bachelor of Arts (Honours) in <em>Dramatic Arts</em></li>
-                <li>Performed in or provided technical assistance to 12 extra-curricular productions
-                    across 4 years</li>
-            </ul>
-        </li>
+        {% endfor %}
     </ul>
 
-    <h3 class="subtitle--center text--uppercase">Additional Experience & Awards</h3>
-    <ul>
-        <li><em>Best Overall Game: </em> Pangolin Dinner at Mohawk’s first ever game jam</li>
-        <li>Co-founded <em>Fulcrum Theatre</em> (2011-2013), a Hamilton based indie theatre company</li>
-    </ul>
+    {% for extra in site.data.resumeExtras %}
+        <h3 class="subtitle--center text--uppercase">{{extra.title}}</h3>
+        <ul>
+            {% for item in extra.line-items %}
+                <li>{{item}}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
 </div>
