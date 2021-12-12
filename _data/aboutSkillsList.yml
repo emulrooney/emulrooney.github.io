@@ -1,0 +1,11 @@
+- category: Languages
+  entries: ['C#', 'Java', 'JavaScript', 'PHP', 'Python', 'SQL']
+
+- category: Frameworks
+  entries: [.NET Core, CodeIgniter, Symfony, Vue]
+
+- category: Platforms and Libraries
+  entries: [AWS, Azure, Bootstrap, Git, Godot, jQuery, Jekyll, Node.js, SASS, Selenium, Unity, Wordpress]
+
+- category: Misc
+  entries: [Agile, Jira, Technical Writing, Unit Testing]
