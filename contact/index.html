@@ -3,4 +3,44 @@ layout: default
 title: "Contact"
 ---
 
-## Contact Me
+<h2 id="contactHeading" class="section__heading">Contact Me</h2>
+<div class="pure-g">
+    <div class="pure-u-1-2">
+        <h3 class="subtitle--center text--uppercase">Email</h3>
+        <form action="https://usebasin.com/f/ed2930f7f6e8" method="POST" class="pure-form pure-form-stacked">
+            <fieldset class="pure-group">
+                <label for="contactName">Sender</label>
+                <input id="contactName" name="name" type="text" class="width--100" placeholder="Your Name" required />
+                <label for="contactEmail">Email</label>
+                <input id="contactEmail" name="email" type="email" class="width--100" placeholder="email@address.com" required />
+            </fieldset>
+            <fieldset class="pure-group">
+                <label for="contactSubject">Subject Line</label>
+                <input id="contactSubject" name="subject" type="text" class="width--100" required />
+                <label for="contactBody">Email Body</label>
+                <textarea id="contactBody" name="body" rows="8" class="width--100" required></textarea>
+            </fieldset>
+            <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+            <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">
+                Submit<i aria-hidden="true" class="fas fa-paper-plane "></i></button>
+        </form>
+    </div>
+
+    <div class="pure-u-1-2">
+        <h3 class="subtitle--center text--uppercase">Follow Me</h3>
+        <ul class="list--plain contact__list">
+            <li>
+                <a href="https://www.linkedin.com/in/evan-mulrooney-0930b6a1/">
+                    <i aria-hidden="true" class="fab fa-linkedin m--r--s"></i>LinkedIn</a> - mostly
+                used for job searching, not always up to date.</li>
+            <li>
+                <a href="https://github.com/emulrooney"><i aria-hidden="true" class="fab fa-github m--r--s"></i>Github</a> - for most of my listed projects,
+                and
+                more!</li>
+            <li>
+                <a href="https://codepen.io/emulrooney"><i aria-hidden="true" class="fab fa-codepen m--r--s"></i>CodePen</a> - for ideas that aren't fully
+                fleshed out, including some of my earliest attempts at programming.</li>
+        </ul>
+
+    </div>
+</div>
