@@ -3,12 +3,8 @@ layout: default
 title: "Resume"
 ---
 
-<h2 class="display--flex justify--space-between">
-    Resume
-</h2>
-
 <div>
-    <h3 class="subtitle--center text--uppercase">Employment</h3>
+    <h3 class="m--t--xl">Employment</h3>
     <ul class="list--plain list--no-padding">
         {% for work in site.data.resumeWork %}
         <li>
@@ -26,7 +22,7 @@ title: "Resume"
         {% endfor %}
     </ul>
 
-    <h3 class="subtitle--center text--uppercase">Education</h3>
+    <h3 class="m--t--xl">Education</h3>
     <ul class="list--plain list--no-padding">
         {% for school in site.data.resumeEducation %}
         <li>
@@ -45,7 +41,7 @@ title: "Resume"
     </ul>
 
     {% for extra in site.data.resumeExtras %}
-        <h3 class="subtitle--center text--uppercase">{{extra.title}}</h3>
+        <h3 class="m--t--xl">{{extra.title}}</h3>
         <ul>
             {% for item in extra.line-items %}
                 <li>{{item}}</li>
