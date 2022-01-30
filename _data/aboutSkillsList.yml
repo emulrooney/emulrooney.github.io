@@ -2,10 +2,10 @@
   entries: ['C#', 'Java', 'JavaScript', 'PHP', 'Python', 'SQL']
 
 - category: Frameworks
-  entries: [.NET Core, CodeIgniter, Symfony, Vue]
+  entries: [.NET, Symfony, Vue]
 
 - category: Platforms and Libraries
-  entries: [AWS, Azure, Bootstrap, Git, Godot, jQuery, Jekyll, Node.js, SASS, Selenium, Unity, Wordpress]
+  entries: [AWS, Bootstrap, Git, Godot, jQuery, Jekyll, Node.js, SASS, Wordpress]
 
 - category: Misc
   entries: [Agile, Jira, Technical Writing, Unit Testing]
