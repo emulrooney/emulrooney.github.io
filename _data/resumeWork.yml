@@ -3,12 +3,15 @@
   organization: Race Roster
   timeframe: July 2021 - Present
   line-items: [
-    "Optimization of legacy queries and resolving issues in modules related to: metrics, payouts, registration products and questions",
-    "Consistent demonstrations of enhancements to core backend services",
-    "Driving daily code review to reduce average time-to-review to approximately 4 hours"]
+    "Designed and automated scalable validation of ingestion pipeline for migrating millions of legacy records to Single Store database",
+    "Devised methodology to isolate and solve payout errors involving thousands of transactions, reducing time-to-resolution by 50%",
+    "Selected to join billing team, responsible for refactor of financial logic powering thousands of running events yearly",
+    "Leveraged cloud technology through AWS to build distributed services, using SNS, S3, SQS",
+    "Performed regular maintenance tasks: updating dependencies, patching security holes and deployments via Github Actions and Bamboo",
+    "Continual personal development, including improving automated test writing, use of AWS, and learning Go"
+  ]
   tech: ["PHP", "Symfony", "MySQL", "AWS", "JavaScript"]
   
-
 - title: Junior Software Engineer
   location: Burlington, ON
   organization: Audiobooks.com
@@ -21,9 +24,9 @@
 - title: Co-op Software Developer
   location: Hamilton, ON
   organization: Orbis Communications
-  timeframe: January - August 2019, May - August 2020
+  timeframe: January 2019 - August 2020
   line-items: ["Built 'Insights' dashboard prototype providing ‘at-a-glance’ visualization using 50+ charts and tables across 12 modules",
                 "Modified product functionality and visual styling to adhere to WCAG 2.1 AA requirements",
                 "Converted or rebuilt 200+ client facing pages from Bootstrap 3 to in-house, fully custom UI kit",
                 "Worked with both Outcome and .NET teams to resolve bugs and issues ahead of major launches"]
-  tech: ["C#", "JavaScript", "Vue", "Java", "Microsoft SQL Server"]
+  tech: ["C#", "JavaScript", "Vue.js", "Java", "Microsoft SQL Server"]
