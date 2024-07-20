@@ -1,4 +1,11 @@
-- title: Full-Stack Web Development
+- title: Backend Development
+  company: Race Roster
+  url: https://raceroster.com
+  blurb: Race Roster is an internationally leading platform for connecting race organizers to runners.
+  image: assets/images/project-RaceRoster.png
+  image-aria: Screenshot of Race Roster home page
+
+- title: Full-stack Web Development
   company: Audiobooks.com
   url: https://audiobooks.com/
   blurb: Audiobooks.com is a cloud-based provider of online audiobooks with a catalogue of over 250,000 selections.

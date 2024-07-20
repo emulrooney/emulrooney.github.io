@@ -4,7 +4,10 @@ title: "Resume"
 ---
 
 <div>
-    <h3 class="m--t--xl">Employment</h3>
+    <h3 class="m--t--xl">Areas of Expertise</h3>
+    {% include aboutLanguageList.html %}
+
+    <h3 class="m--t--xl">Professional Experience</h3>
     <ul class="list--plain list--no-padding">
         {% for work in site.data.resumeWork %}
         <li>
