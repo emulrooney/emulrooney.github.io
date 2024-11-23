@@ -1,17 +1,17 @@
 import Job from "@/app/resume/job";
 import React, {ReactNode} from "react";
-import JobData from "@/app/data/resume/JobData";
-import YamlObjectParser from "../data/YamlObjectParser";
-import SkillCategoryData from "@/app/data/resume/SkillCategoryData";
+import JobData from "@/app/data/resume/jobData";
+import YamlObjectParser from "../data/yamlObjectParser";
+import SkillCategoryData from "@/app/data/resume/skillCategoryData";
 import SkillCategory from "@/app/resume/skillCategory";
-import EducationData from "@/app/data/resume/EducationData";
+import EducationData from "@/app/data/resume/educationData";
 import Education from "@/app/resume/education";
 import '../styles/components/resume-skills.css';
 import Page from "@/app/components/basePage";
 
-const jobDataPath = "src/app/data/resume/JobData.yaml";
-const skillDataPath = "src/app/data/resume/SkillCategoryData.yaml";
-const educationDataPath = "src/app/data/resume/EducationData.yaml";
+const jobDataPath = "src/app/data/resume/jobData.yaml";
+const skillDataPath = "src/app/data/resume/skillCategoryData.yaml";
+const educationDataPath = "src/app/data/resume/educationData.yaml";
 
 /**
  *

@@ -1,7 +1,7 @@
 import Page from "@/app/components/basePage";
 import "../styles/utility.css";
 import ProjectsCard from "@/app/projects/projectsCard";
-import YamlObjectParser from "@/app/data/YamlObjectParser";
+import YamlObjectParser from "@/app/data/yamlObjectParser";
 import {ProjectData} from "@/app/data/projects/projectData";
 
 export default function Projects() {

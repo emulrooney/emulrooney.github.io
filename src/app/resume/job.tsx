@@ -1,4 +1,4 @@
-import JobData from "@/app/data/resume/JobData";
+import JobData from "@/app/data/resume/jobData";
 import "../styles/utility.css";
 import "../styles/components/resume-item.css";
 

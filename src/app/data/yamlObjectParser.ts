@@ -7,7 +7,7 @@ import YAML from 'yaml';
 class YamlObjectParser {
 
   /**
-   * Yaml file destination. Pathed from root; ie `"src/app/data/JobData.yaml"`
+   * Yaml file destination. Pathed from root; ie `"src/app/data/jobData.yaml"`
    */
   source: string;
 

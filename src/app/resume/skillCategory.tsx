@@ -1,4 +1,4 @@
-import SkillCategoryData from "@/app/data/resume/SkillCategoryData";
+import SkillCategoryData from "@/app/data/resume/skillCategoryData";
 
 export default function SkillCategory(data: SkillCategoryData) {
   return (<li key={data.title} className={"resume-skill"}>
