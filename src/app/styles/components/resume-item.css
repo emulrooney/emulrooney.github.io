@@ -61,6 +61,10 @@
     }
 }
 
+.duration h4 {
+    font-size: 1rem;
+}
+
 @media (max-width: 1280px) {
     .resume-item .duration {
         width: 100%;
