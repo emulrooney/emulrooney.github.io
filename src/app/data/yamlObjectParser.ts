@@ -20,13 +20,13 @@ class YamlObjectParser {
    */
   getResults<Type>(): Type[] {
     const file = fs.readFileSync(this.source, 'utf8');
-    const parsedData = Object.values(YAML.parse(file));
+    const parsedData = YAML.parse(file);
     const results: Type[] = [];
 
-    parsedData.forEach((item: unknown) => {
-      const o = item as Type;
-      results.push(o);
-    });
+    for (const key in parsedData) {
+      const item = parsedData[key] as Type;
+      results.push(item); 
+    }
 
     return results;
   }
