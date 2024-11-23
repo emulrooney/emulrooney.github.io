@@ -1,0 +1,11 @@
+.project-url {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 1.1rem;
+}
+
+.project-url svg {
+    font-size: 1.5rem;
+}

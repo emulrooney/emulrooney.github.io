@@ -1,6 +1,5 @@
 import Page from "@/app/components/basePage";
 import '../styles/utility.css';
-// import Image from "next/image";
 
 export default function AboutMe() {
   const careerHighlights = [
@@ -19,6 +18,9 @@ export default function AboutMe() {
 
   return (<Page id="aboutme">
     <article>
+      <header>
+        <h3>About me</h3>
+      </header>
       <div className="vertical-align">
         <p>
           I&#39;m an experienced full stack developer with a background in a variety of languages and frameworks,
@@ -48,13 +50,17 @@ export default function AboutMe() {
     </article>
     <article>
       <header>
-        Some career highlights
+        <h3>
+          Some career highlights
+        </h3>
       </header>
       {renderList(careerHighlights)}
     </article>
     <article>
       <header>
-        Want to connect?
+        <h3>
+          Want to connect?
+        </h3>
       </header>
       <ul>
         <li key="linkedin">Reach out on <a href="https://www.linkedin.com/in/evan-mulrooney-0930b6a1/">LinkedIn</a></li>

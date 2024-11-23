@@ -1,9 +1,12 @@
 'use client';
 
 import Image from "next/image";
-import {ProjectData} from "@/app/data/projects/projectData";
+import ProjectData from "@/app/data/projects/projectData";
 import ProjectsCardDisplayer from "@/app/projects/projectsCardDisplayer";
 import {useState} from "react";
+import ProjectDataUrl from "@/app/data/projects/projectDataUrl";
+import {Browsers, GameController, GithubLogo, Video} from "@phosphor-icons/react";
+import "../styles/components/project-card.css";
 
 export interface ProjectsCardInterface {
   title: string,
@@ -19,12 +22,25 @@ export default function ProjectsCard({title, description, category, data} : Proj
     setCurrentlyShowing(index);
   }
 
+  const getIcon = (iconName: string) => {
+    switch (iconName) {
+      case 'Github':
+        return <GithubLogo />
+      case 'Video':
+        return <Video />
+      case 'Play it':
+        return <GameController />
+      default:
+        return <Browsers />
+    }
+  }
+
   const getDisplayName = (datum: ProjectData): string => {
     return datum.context.length > 0 ? datum.title + " @ " + datum.context : datum.title;
   }
 
   return <article>
-    <header>{title}</header>
+    <header><h3>{title}</h3></header>
     <p><em>{description}</em></p>
     <details className="mobile-only dropdown">
       <summary>{getDisplayName(data[currentlyShowing])}</summary>
@@ -62,19 +78,33 @@ export default function ProjectsCard({title, description, category, data} : Proj
     <ProjectsCardDisplayer currentlyShowing={currentlyShowing}>
       {
         data.map((datum: ProjectData) => {
+          const urls = datum.urls?.map((projectUrl: ProjectDataUrl) => {
+            return <li key={"project-url-" + projectUrl.url}>
+              <a className="project-url" href={projectUrl.url}>
+                {getIcon(projectUrl.icon)}
+                {projectUrl.text}
+              </a>
+            </li>
+          });
+
           return <li key={getDisplayName(datum) + category + "-display"}>
             <figure>
               <div className="project-big-image">
                 <Image className="width-100"
-                       src={"/projects/" + category + "/" + datum.imagePaths[0]} alt={datum.imageAlts[0]}
+                       src={"/projects/" + category + "/" + datum.images[0].url} alt={datum.images[0].alt}
                        width="750"
                        height="1000"
                 />
               </div>
               <figcaption>
-                <strong>{datum.descriptionTitle}</strong>
+                <h4>{datum.descriptionTitle}</h4>
                 <p>{datum.descriptionBody}</p>
               </figcaption>
+              <div>
+                <ul className="flex flex-gap list-style-none ">
+                  {urls}
+                </ul>
+              </div>
             </figure>
           </li>
         })

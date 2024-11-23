@@ -1,4 +1,4 @@
-import EducationData from "@/app/data/resume/EducationData";
+import EducationData from "@/app/data/resume/educationData";
 import "../styles/utility.css";
 
 export default function Education(data: EducationData) {
