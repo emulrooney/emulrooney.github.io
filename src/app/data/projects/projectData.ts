@@ -1,19 +1,14 @@
-export class ProjectData {
+import ProjectDataUrl from "@/app/data/projects/projectDataUrl";
+import ProjectDataImage from "@/app/data/projects/projectDataImage";
+
+type ProjectData = {
   title: string;
   context: string;
   descriptionTitle: string;
   descriptionBody: string;
-  imagePaths: string[];
-  imageAlts: string[];
+  urls: ProjectDataUrl[];
+  images: ProjectDataImage[];
   self: ProjectData;
+};
 
-  constructor(title: string, context: string, descriptionTitle: string, descriptionBody: string, imagePaths: string[], imageAlts: string[]) {
-    this.self = this;
-    this.title = title;
-    this.context = context;
-    this.descriptionTitle = descriptionTitle;
-    this.descriptionBody = descriptionBody;
-    this.imagePaths = imagePaths;
-    this.imageAlts = imageAlts;
-  }
-}
+export default ProjectData;
