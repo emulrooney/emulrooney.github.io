@@ -1,0 +1,16 @@
+mohawk:
+  institution: "Mohawk College"
+  duration: "September 2017 - December 2020"
+  program: "Computer Systems Technology - Software Development"
+  credential: "Advanced Diploma"
+  bullets:
+  - "Earned Dean’s Honours List for all semesters for retaining overall average over 90%"
+  - "Peer tutor for students studying: Python, Math, Java, HTML/CSS, Business Analysis"
+
+brock:
+  institution: "Brock University"
+  duration: "September 2009 - April 2013"
+  program: "Dramatic Arts"
+  credential: "Bachelor of Arts (Honours)"
+  bullets:
+  - "Performed in or provided technical assistance to 12 extra-curricular productions across 4 years"

@@ -1,0 +1,29 @@
+dungeonwall:
+  title: Dungeonwall
+  context: ""
+  descriptionTitle: 'Dungeonwall: a masonry-style note-taking app for Dungeons & Dragons.'
+  descriptionBody: "Uses the 'Muuri' JavaScript library to display notes in a drag-and-drop masonry style layout. Uses MongoDB and Vue. In retrospect, this was very much a contrived project to learn a bunch of new tech, but I did actually use it for a few sessions!"
+  imagePaths:
+    - "project-Dungeonwall.png"
+  imageAlts:
+    - "Dungeonwall screenshot"
+
+grades:
+  title: React Grades App
+  context: ""
+  descriptionTitle: 'Grades calculator.'
+  descriptionBody: "A very, very simple grades calculator I wrote ages ago (2019) in React when I was first learning web development."
+  imagePaths:
+    - "project-GradesCalculator.png"
+  imageAlts:
+    - "React Grades Calculator screenshot"
+
+hamartsmap:
+  title: HamArtsMap
+  context: ""
+  descriptionTitle: 'HamArtsMap; find public art in Hamilton, Ontario.'
+  descriptionBody: "A school project where I used Bing Maps to display local art using the open data sets provided by the city of Hamilton. Built with very simple PHP and JavaScript."
+  imagePaths:
+    - "project-HamArtsMap.png"
+  imageAlts:
+    - "HamArtsMap screenshot"

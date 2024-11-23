@@ -1,0 +1,39 @@
+beelancer:
+  title: Beelancer
+  context: Github Gameoff 2021
+  descriptionTitle: 'Entry for the Github Gameoff 2021.'
+  descriptionBody: "Built over the course of a few weekends in November, the game involves flying around and picking up pollen off of flowers. The more pollen you carry, the worse you fly. If you spend too long out in the open, you'll get eaten by a bird. Also, there's a constant swarm of carpenter bees that'll slam into you and knock you out of cover. Built with Godot 3."
+  imagePaths:
+    - "project-Beelancer.png"
+  imageAlts:
+    - "Beelancer Gameplay"
+
+godot-rpg:
+  title: Godot RTWP RPG
+  context: ""
+  descriptionTitle: 'Personal project: RPG with Infinity Engine style combat.'
+  descriptionBody: "Unfinished. I was interested in learning Godot and this was a fun, complicated project to put together. RTWP stands for 'real-time with pause', where you can pause at any time to issue new orders to your characters."
+  imagePaths:
+    - "project-GodotRTWP.png"
+  imageAlts:
+    - "Godot RPG Gameplay"
+
+pangolin:
+  title: Pangolin Dinner
+  context: "Mohawk College Game Jam"
+  descriptionTitle: 'Best Overall Game at the first ever Mohawk College Game Jam.'
+  descriptionBody: "Built in about 7 hours for the first ever game jam, and the winner of best overall game. The requirement was that the game had to revolve around the pangolin, an endangered animal kind of like an ant-eater. The pangolin has an extra long tongue - sometimes longer than the rest of their body - so the game involves navigating the pangolin's tongue through a maze to slurp up ants at the bottom of the level. Built in Unity."
+  imagePaths:
+    - "project-PangolinDinner.png"
+  imageAlts:
+    - "Pangolin Dinner gameplay"
+
+orbital4:
+  title: Orbital4
+  context: ""
+  descriptionTitle: 'Connect4, but in multiple directions.'
+  descriptionBody: "A simple implementation of Connect-4 for an introductory Java class, with the twist that you can drop pieces in from any side of the board."
+  imagePaths:
+    - "project-Orbital4.png"
+  imageAlts:
+    - "Beelancer Gameplay"

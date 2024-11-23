@@ -1,0 +1,25 @@
+.link-button {
+    margin-left: 0;
+    outline: 2px solid var(--pico-primary);
+}
+
+.link-button:hover, .link-button.active:hover {
+    background-color: var(--pico-primary);
+    color: white;
+    text-decoration: none;
+}
+
+.link-button.active {
+    background-color: var(--pico-secondary);
+    color: white;
+}
+
+button.link-button {
+    background-color: transparent;
+}
+
+@media (prefers-color-scheme: light) {
+    .link-button {
+        color: var(--pico-primary);
+    }
+}

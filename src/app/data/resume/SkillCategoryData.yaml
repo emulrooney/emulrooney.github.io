@@ -1,0 +1,44 @@
+languages:
+  id: 0
+  title: "Languages"
+  className: "tech-list-language"
+  items:
+    - "C#"
+    - "JavaScript"
+    - "PHP"
+    - "Python"
+    - "SQL"
+
+frameworks:
+  id: 1
+  title: "Frameworks & technologies"
+  className: "tech-list-framework"
+  items:
+    - ".NET"
+    - "React"
+    - "Next.js"
+    - "Symfony"
+    - "Vue"
+
+databases:
+  id: 2
+  title: "Databases"
+  className: "tech-list-database"
+  items:
+    - "MySQL"
+    - "PostgreSQL"
+    - "Microsoft SQL Server"
+    - "Sqlite"
+
+platforms:
+  id: 3
+  title: "Platforms & libraries"
+  className: ""
+  items:
+    - "AWS"
+    - "Bootstrap"
+    - "Git"
+    - "Godot"
+    - "jQuery"
+    - "Node"
+    - "PHPUnit"
