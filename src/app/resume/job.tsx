@@ -44,7 +44,7 @@ export default function Job(data: JobData) {
 
   return (<div className="resume-item" key={data.company + data.duration}>
     <div className="duration">
-      <h6>{data.duration}</h6>
+      <h4>{data.duration}</h4>
     </div>
     <div className="content">
       <h5>{data.title} @ {data.company}</h5>

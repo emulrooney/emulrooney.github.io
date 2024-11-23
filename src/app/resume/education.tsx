@@ -13,7 +13,7 @@ export default function Education(data: EducationData) {
 
   return (<div className="resume-item" key={data.institution}>
     <div className="duration">
-      <h6>{data.duration}</h6>
+      <h4>{data.duration}</h4>
     </div>
     <div className="content">
       <h5>{data.institution}</h5>
