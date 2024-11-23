@@ -29,6 +29,15 @@ p a {
     margin: 0.1em;
 }
 
+/* Fix for some headers */
+article header h3 {
+    all: unset;
+}
+
+article header {
+    font-size: 1.25rem;
+}
+
 @media (max-width: 768px) {
     body {
         flex-direction: column;

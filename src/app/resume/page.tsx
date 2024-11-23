@@ -37,15 +37,15 @@ export default function Resume() {
     return (
       <Page id="resume">
         <article>
-          <header>Experience</header>
+          <header><h3>Experience</h3></header>
           {getData<JobData, typeof Job>(jobDataPath, Job)}
         </article>
         <article>
-          <header>Education</header>
+          <header><h3>Education</h3></header>
           {getData<EducationData, typeof Education>(educationDataPath, Education)}
         </article>
         <article>
-          <header>Skills and technologies</header>
+          <header><h3>Skills and technologies</h3></header>
           {getData<SkillCategoryData, typeof SkillCategory>(skillDataPath, SkillCategory)}
         </article>
       </Page>);

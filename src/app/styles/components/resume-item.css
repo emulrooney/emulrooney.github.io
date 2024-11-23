@@ -39,10 +39,6 @@
     width: 10rem;
 }
 
-article header {
-    font-size: 1.2rem;
-}
-
 .resume-item .content {
     flex: 1;
 }
