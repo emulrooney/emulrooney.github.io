@@ -1,17 +1,5 @@
-# emulrooney.github.io
-Portfolio page.
+# Portfolio
 
-Built with Jekyll.
+Portfolio for Dec 2024-current. Built with [next.js](https://nextjs.org/), [Typescript](https://www.typescriptlang.org) and [React](https://react.dev/).
 
-## Left to do:
-
-### Big Tasks:
-* CSS is partially redone in .scss files but is not quite where I want it.
-* Accessibility pass beyond just using WAVE tools
-* Pixel breakpoints for mobile are more predictable... may need 3 sizes, but switch it over.
-
-### Small Tasks:
-* Add lightbox for major projects too
-* Standard screenshot size
-* Create medium-size screenshots for major projects
-* Consider lazy load on _all_ images
+For older versions, see other branches.

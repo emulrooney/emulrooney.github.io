@@ -1,0 +1,39 @@
+raceroster:
+  title: "Backend"
+  context: "Race Roster"
+  descriptionTitle: 'Backend development at Race Roster.'
+  descriptionBody: "During my time at Race Roster, I've worked on core functionality surrounding event-organizer pages used for setting up races and events. I've also done significant work on modernizing and refactoring the financial systems, massively improving auditability and simplicity."
+  imagePaths:
+    - "project-RaceRoster.png"
+  imageAlts:
+    - "Race Roster homepage screenshot"
+
+audiobooks:
+  title: "Full-stack"
+  context: "Audiobooks.com"
+  descriptionTitle: 'Full-stack development at Audiobooks.com.'
+  descriptionBody: "At Audiobooks.com, I was responsible for automating processes related to gathering customer clicks and purchases and feeding them into AWS Personalize. This automation led to a 16x more frequent update schedule for fresh recommendations and removed any need for a developer to babysit this process."
+  imagePaths:
+    - "project-AudiobooksDotCom.png"
+  imageAlts:
+    - "Audiobooks.com homepage screenshot"
+
+orbisux:
+  title: "Outcome UI/UX"
+  context: "Orbis"
+  descriptionTitle: 'Outcome UI and UX team at Orbis Communications.'
+  descriptionBody: "During my co-op terms with Orbis Communications, I generally did UI and UX enhancements across our main product offerings. In my first terms this involved revamping pages to use our in-house UI kit instead of Bootstrap. In my last term I primarily focused on WCAG AA 2.0 compliance, making some of our more complex apps fully accessible to screen-readers and keyboard-only use and in general fixing other a11y issues. These enhancements were felt at over one hundred post-secondaries in both Canada and the United States. I also built prototypes in Vue, ideating on ways to replace our overwhelming number of legacy metrics with more usable dashboards."
+  imagePaths:
+    - "project-Outcome.png"
+  imageAlts:
+    - "Outcome homepage screenshot"
+
+orbiscampusconnect:
+  title: "Outcome Campus Connect"
+  context: "Orbis"
+  descriptionTitle: 'Full-stack development on Outcome Campus Connect.'
+  descriptionBody: "While I was at Orbis, I was fortunate to be brought onto a greenfield project to build a job board and student job aggregation systems used Canada-wide. In addition to my normal UX work, I got to extend Charts.js for some custom graphing and integrate Google Maps into a dashboard used to get a high-level overview of where job placements were located."
+  imagePaths:
+    - "project-OCC.png"
+  imageAlts:
+    - "Outcome Campus Connect homepage screenshot"

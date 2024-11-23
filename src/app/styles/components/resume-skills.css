@@ -1,0 +1,59 @@
+.resume-skill {
+    display: flex;
+    gap: .5rem;
+    list-style: none;
+}
+
+.resume-skill ul {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.resume-skill ul li::after {
+    content: ",\00a0";
+}
+
+.resume-skill ul li:last-child::after {
+    content: "";
+}
+
+.resume-skill li {
+    list-style: none;
+}
+
+.resume-skill .resume-skill-title {
+    text-decoration: underline;
+}
+
+.resume-skill-title.tech-list-language {
+    text-decoration-color: #55cccc;
+}
+
+.resume-skill-title.tech-list-framework {
+    text-decoration-color: #a3efa6;
+}
+
+.resume-skill-title.tech-list-database {
+    text-decoration-color: #e8ab21;
+}
+
+@media (prefers-color-scheme: dark) {
+    .resume-skill-title.tech-list-language {
+        text-decoration-color: #2a8787;
+    }
+
+    .resume-skill-title.tech-list-framework {
+        text-decoration-color: #51a254;
+    }
+
+    .resume-skill-title.tech-list-database {
+        text-decoration-color: #b7830d;
+    }
+
+    .resume-skill-title {
+        text-decoration-color: #aaaaaa;
+    }
+}
