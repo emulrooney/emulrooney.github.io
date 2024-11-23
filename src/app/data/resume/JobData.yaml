@@ -5,10 +5,9 @@ race-roster:
   location: "Remote"
   duration: "July 2021 - Present"
   bullets:
-  - "Built scalable, automated daily validation of millions of financial rows migrated to Single Store database"
-  - "Cut AWS costs by 50% for tax reporting tool used by hundreds of event organizers"
-  - "Created a strategy to streamline resolution of payment discrepancies across 25+ legacy transaction tables, reducing monthly investigation time by 4-20 hours"
-  - "Extracted financial systems into Dockerized services, prioritizing simplicity, test coverage and scalability"
+  - "Built scalable validation of financial transactions through daily comparisons against Stripe/Adyen platforms"
+  - "Created and documented strategy to streamline resolution of payment transaction discrepancies across 25+ legacy transaction tables, reducing monthly investigation time by 4-20 hours"
+  - "Extracted financial systems into smaller Dockerized services with extensive test coverage"
   - "Worked with data, product, and customer service teams to enhance Stripe integrations for compliance and support expansion into new markets"
   tech:
     - "PHP"
@@ -27,7 +26,7 @@ audiobooks:
   location: "Burlington, ON"
   duration: "December 2020 - July 2021"
   bullets:
-  - "Designed and implemented end-to-end automation of uploads and re-ingestion of AWS Personalize data, increasing update frequency by 16x and eliminating the need for developer intervention"
+  - "Designed and implemented end-to-end automation of uploads and re-ingestion of AWS Personalize data, increasing update frequency by 22x and eliminating the need for developer intervention"
   - "Scripted data cleaning and reorganization processes in Python for better ingestion into AWS services"
   - "Applied tag attributes to millions of users, enabling precise targeted advertising strategies"
   tech:
@@ -49,6 +48,7 @@ orbis-last-co-op:
   - "Returned for final co-op term as part of program at Mohawk College"
   - "Developed a metrics dashboard in Vue, C# and .NET Core, converting over 50 site metrics into dynamic visualizations for data-driven decision making"
   - "Ensured WCAG 2.1 AA web accessibility standards compliance by updating content management systems, affecting over 100 post-secondary institutions"
+  - "Enhanced RESTful APIs with an eye towards security and scalability, supporting onboarding of new schools"
   tech:
     - "C#"
     - "JavaScript"
