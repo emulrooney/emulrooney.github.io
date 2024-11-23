@@ -3,37 +3,58 @@ beelancer:
   context: Github Gameoff 2021
   descriptionTitle: 'Entry for the Github Gameoff 2021.'
   descriptionBody: "Built over the course of a few weekends in November, the game involves flying around and picking up pollen off of flowers. The more pollen you carry, the worse you fly. If you spend too long out in the open, you'll get eaten by a bird. Also, there's a constant swarm of carpenter bees that'll slam into you and knock you out of cover. Built with Godot 3."
-  imagePaths:
-    - "project-Beelancer.png"
-  imageAlts:
-    - "Beelancer Gameplay"
+  urls:
+    - text: 'Play it on itch.io!'
+      icon: 'Play it'
+      url: 'https://emulrooney.itch.io/beelancer'
+    - text: 'Github repository'
+      icon: 'Github'
+      url: 'https://github.com/emulrooney/beelancer'
+  images:
+    - alt: 'Beelancer gameplay - topdown view of a bee standing on a huge blue flower, collecting diamond shaped pollen powerups'
+      url: 'project-Beelancer.png'
 
 godot-rpg:
   title: Godot RTWP RPG
   context: ""
   descriptionTitle: 'Personal project: RPG with Infinity Engine style combat.'
   descriptionBody: "Unfinished. I was interested in learning Godot and this was a fun, complicated project to put together. RTWP stands for 'real-time with pause', where you can pause at any time to issue new orders to your characters."
-  imagePaths:
-    - "project-GodotRTWP.png"
-  imageAlts:
-    - "Godot RPG Gameplay"
+  urls:
+    - text: 'Gameplay video'
+      icon: 'Video'
+      url: 'https://www.youtube.com/watch?v=JtKmaRH_t0I'
+    - text: 'GitHub repository'
+      icon: 'Github'
+      url: 'https://github.com/emulrooney/godot-RTWP/'
+  images:
+    - alt: 'Godot RPG Gameplay - topdown view, a guy with an axe stands in a blue-toned building, with GUI elements showing a portrait and actions to take'
+      url: 'project-GodotRTWP.png'
 
 pangolin:
   title: Pangolin Dinner
   context: "Mohawk College Game Jam"
   descriptionTitle: 'Best Overall Game at the first ever Mohawk College Game Jam.'
   descriptionBody: "Built in about 7 hours for the first ever game jam, and the winner of best overall game. The requirement was that the game had to revolve around the pangolin, an endangered animal kind of like an ant-eater. The pangolin has an extra long tongue - sometimes longer than the rest of their body - so the game involves navigating the pangolin's tongue through a maze to slurp up ants at the bottom of the level. Built in Unity."
-  imagePaths:
-    - "project-PangolinDinner.png"
-  imageAlts:
-    - "Pangolin Dinner gameplay"
+  urls:
+    - text: 'Play it online!'
+      icon: 'Play it'
+      url: 'https://evanmulrooney.dev/projects/games/pangolinWebGL/index.html'
+    - text: 'GitHub repository'
+      icon: 'Github'
+      url: 'https://github.com/emulrooney/PangolinGameJam'
+  images:
+    - alt: 'Pangolin Dinner Gameplay - side view of a pangolin at the top of an ant colony depicted as a maze, with a tongue snaking down towards ants at the bottom of the screen'
+      url: 'project-PangolinDinner.png'
 
 orbital4:
   title: Orbital4
   context: ""
   descriptionTitle: 'Connect4, but in multiple directions.'
   descriptionBody: "A simple implementation of Connect-4 for an introductory Java class, with the twist that you can drop pieces in from any side of the board."
-  imagePaths:
-    - "project-Orbital4.png"
-  imageAlts:
-    - "Beelancer Gameplay"
+  urls:
+    - text: 'GitHub repository'
+      icon: 'Github'
+      url: 'https://github.com/emulrooney/Orbital4'
+  images:
+    - alt: 'Orbital4 gameplay - an evenly matched board of red and blue pieces with the menu sidebar open on the right'
+      url: 'project-Orbital4.png'
