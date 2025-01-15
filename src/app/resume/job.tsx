@@ -9,12 +9,15 @@ export default function Job(data: JobData) {
       case "php":
       case "c#":
       case "javascript":
+      case "typescript":
       case "python":
         return "tech-list-language";
       case "symfony":
       case ".net core":
       case "vue":
       case "react":
+      case "fastapi":
+      case "pyramid":
         return "tech-list-framework";
       case "mysql":
       case "postgresql":

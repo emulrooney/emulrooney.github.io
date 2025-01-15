@@ -1,9 +1,25 @@
-race-roster:
+tineye:
   id: 0
+  title: "Full Stack Software Engineer"
+  location: "Toronto, ON"
+  duration: "January 2025 - Present"
+  bullets:
+  - "More info coming soon."
+  tech:
+    - "Python"
+    - "TypeScript"
+    - "FastAPI"
+    - "Pyramid"
+    - "Vue"
+    - "PostgreSQL"
+    - "Docker"
+
+race-roster:
+  id: 1
   title: "Developer"
   company: "Race Roster"
   location: "Remote"
-  duration: "July 2021 - Present"
+  duration: "July 2021 - December 2024"
   bullets:
   - "Built scalable validation of financial transactions through daily comparisons against Stripe/Adyen platforms"
   - "Created and documented strategy to streamline resolution of payment transaction discrepancies across 25+ legacy transaction tables, reducing monthly investigation time by 4-20 hours"
@@ -20,7 +36,7 @@ race-roster:
     - "Docker"
 
 audiobooks:
-  id: 1
+  id: 2
   title: "Junior Software Engineer"
   company: "Audiobooks.com"
   location: "Burlington, ON"
@@ -39,7 +55,7 @@ audiobooks:
 
 
 orbis-last-co-op:
-  id: 2
+  id: 3
   title: "Software Developer (Co-op 2)"
   company: "Orbis Communications"
   location: "Remote"
@@ -57,7 +73,7 @@ orbis-last-co-op:
     - "Microsoft SQL Server"
 
 orbis-first-co-op:
-  id: 3
+  id: 4
   title: "Software Developer (Co-op 1)"
   company: "Orbis Communications"
   location: "Remote"
