@@ -38,9 +38,9 @@ export default function AboutMe() {
             at <a href="https://www.raceroster.com/">Race Roster</a>, a leading
             platform connecting competitive race organizers to registrants.
             I&#39;ve also worked at{" "}
-            <a href="https://audiobooks.com">Audiobooks.com</a> where I focused
-            on improvements to customer tracking and automating product
-            recommendations, and I worked on Outcome and{" "}
+            <a href="https://audiobooks.com">Audiobooks.com</a> where I improved
+            customer tracking and automated product recommendations, and I
+            worked on Outcome and{" "}
             <a href="https://outcomecampusconnect.com/">
               Outcome Campus Connect
             </a>{" "}
