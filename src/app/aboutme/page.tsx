@@ -33,7 +33,7 @@ export default function AboutMe() {
           </p>
           <p>
             I’m currently working for{" "}
-            <a href="https://www.tineye.com">Tineye</a>, a boutique software
+            <a href="https://www.tineye.com">TinEye</a>, a boutique software
             firm and the inventors of reverse image search. Previously, I worked
             at <a href="https://www.raceroster.com/">Race Roster</a>, a leading
             platform connecting competitive race organizers to registrants.
