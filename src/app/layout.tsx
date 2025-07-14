@@ -17,9 +17,10 @@ export const metadata: Metadata = {
   description: "Portfolio webpage.",
 };
 
-export default function RootLayout({
-                                     children,
-                                   }: Readonly<{
+export default function RootLayout(
+  {
+    children,
+  }: Readonly<{
   children: React.ReactNode;
 }>) {
 

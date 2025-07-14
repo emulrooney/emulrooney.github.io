@@ -17,7 +17,6 @@ export default function Header() {
       </Link>
       <nav>
         <ul>
-
           <li key="1">
             <TransitionLink
               className={"link-button " + (pathname == "/aboutme" || pathname == "/" ? "active" : "")}
@@ -37,6 +36,13 @@ export default function Header() {
               className={"link-button " + (pathname == "/projects" ? "active" : "")}
               href={"/projects"}>
               Projects
+            </TransitionLink>
+          </li>
+          <li key="4">
+            <TransitionLink 
+              className={"link-button " + (pathname == "/writing" ? "active" : "")}
+              href={"/writing"}>
+              Writing
             </TransitionLink>
           </li>
         </ul>
